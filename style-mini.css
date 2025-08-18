@@ -1,0 +1,14 @@
+:root {
+	--montroix-grey: #58595b;
+	--montroix-blue: #1b75bc;
+	--bs-primary: var(--montroix-blue);
+}
+
+a { color: var(--bs-primary); }
+abbr { text-decoration: initial !important; }
+h2 { color: var(--bs-primary); border-bottom: 1px solid var(--bs-primary); }
+hr { border-color: var(--bs-primary) !important; }
+svg.img-fluid { width: 100% \9; }
+svg .MTXlogoText { fill: var(--montroix-grey); }
+svg .MTXlogoTextX { fill: var(--montroix-blue); }
+@media print { abbr::after { display: none; } }

@@ -1,0 +1,1489 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+	<meta name="description" content="Australia’s #1 consultancy for international research collaboration. We have considerable experience in providing advice and managing projects for international clients.">
+	<meta name="author" content="Rado Faletič">
+	<meta name="keywords" content="Montroix, bio-plastic, bioplastic, bio-plastics, bioplastics, SDGs, Sustainable Development Goals, Europe, Australia, New Zealand, Pacific, cooperation, co-operation, science, technology, innovation, R&amp;D, S&amp;T, ST&amp;I, Horizon 2020, Horizon Europe, international cooperation, ARMS">
+	<meta name="format-detection" content="telephone=no">
+	<link rel="icon" href="/favicon.ico">
+	<link rel="apple-touch-icon" href="apple-touch-icon.png">
+	<meta property="og:url" content="https://www.montroix.com/">
+	<meta property="og:type" content="website">
+	<meta property="og:locale" content="en_AU">
+	<meta property="og:title" content="Montroix Pty Ltd: international collaboration experts">
+	<meta property="og:description" content="Australia’s #1 consultancy for international research collaboration. We have considerable experience in providing advice and managing projects for international clients.">
+	<meta property="og:image" content="https://www.montroix.com/img/Montroix_Facebook_website.jpg">
+	<meta property="og:image:alt" content="Montroix Pty Ltd">
+	<meta property="og:image:type" content="image/jpeg">
+	<meta property="og:image:width" content="1200">
+	<meta property="og:image:height" content="630">
+	<meta name="twitter:card" content="summary_large_image">
+	<meta name="twitter:site" content="@montroix">
+	<meta name="twitter:title" content="Montroix Pty Ltd: international collaboration experts">
+	<meta name="twitter:description" content="Australia’s #1 consultancy for international research collaboration. We have considerable experience in providing advice and managing projects for international clients.">
+	<meta name="twitter:creator" content="@Montroix">
+	<meta name="twitter:image" content="https://www.montroix.com/img/Montroix_Twitter_website.jpg">
+	<meta name="twitter:image:alt" content="Montroix Pty Ltd">
+	<title>Montroix Pty Ltd: the international collaboration experts</title>
+	<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.5/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-SgOJa3DmI69IUzQ2PVdRZhwQ+dy64/BUtbMJw1MZ8t5HZApcHrRKUc4W0kG879m7" crossorigin="anonymous">
+	<link href="style-mini.css" rel="stylesheet">
+	<style>
+		.montroixX { color: var(--montroix-blue); }
+		
+		.MTXsection::before,
+		.mtx-section::before {
+			display: block;
+			height: 5rem;
+			margin-top: -5rem;
+			visibility: hidden;
+			content: "";
+		}
+		
+		.bg-primary { background-color: var(--bs-primary) !important; }
+		
+		nav .navbar-brand svg { height: 2rem; background-color: rgb(var(--bs-white-rgb)); }
+		
+		.navbar-social .nav-link { font-size: 1.5rem; color: rgba(var(--bs-white-rgb), 0.5); }
+		.navbar-social .nav-link:hover { color: rgba(var(--bs-white-rgb), 0.75); }
+		.navbar-social .nav-link:active { color: rgba(var(--bs-white-rgb), 1.0); }
+		
+		footer .nav-link { font-size: 2rem; color: rgba(var(--bs-white-rgb), 0.5); }
+		footer .nav-link:hover { color: rgba(var(--bs-white-rgb), 0.75); }
+		footer .nav-link:active { color: rgba(var(--bs-white-rgb), 1.0); }
+		
+		.progress-bar { background-color: var(--bs-primary); }
+		
+		#MTXnavbar .show>.nav-pills .nav-link { background-color: transparent; }
+		#MTXnavbar .nav-pills .nav-link.active { background-color: var(--bs-primary); }
+		
+		#MTXsectionIntroduction { position: relative; }
+		#MTXsectionIntroduction .container { background-color: rgba(var(--bs-light-rgb), 0.75) !important; }
+		#MTXsectionIntroduction video#MTXbackgroundVideo {
+			min-height: 100%;
+			min-width: 100%;
+			object-fit: cover;
+			position: fixed;
+			top: 0;
+			right: 0;
+			z-index: -100;
+		}
+		#MTXsectionIntroduction .card { background-color: rgba(var(--bs-light-rgb), 0.5); }
+		
+		#portfolio ul li a img { height: 4rem; filter: grayscale(100%); }
+		#portfolio ul li a img:hover { filter: grayscale(0%); }
+		#portfolio #portfolioProjects .tab-pane img { height: 4rem; }
+		
+		#MTXsectionNews .card .card-header { background-color: transparent; }
+		#MTXsectionNews .card .card-body { background-color: transparent; }
+		#MTXsectionNews .card .card-title { background-color: transparent; }
+		#MTXsectionNews .card .card-text { background-color: transparent; }
+		#MTXsectionNews .card .card-footer { background-color: transparent; }
+		#MTXsectionNews .card:hover { background-color: rgba(var(--bs-black-rgb), .03); }
+		
+		@media (max-width: 1199px) {
+			#portfolio ul li a img { height: 3rem; }
+		}
+		
+		@media (max-width: 991px) {
+			#portfolio ul li a img { height: 3rem; }
+			.card-group { display: block; }
+		}
+		
+		@media (max-width: 767px) {
+			#portfolio ul li a img { height: 2rem; }
+			#portfolio #portfolioProjects .tab-pane img { height: 3rem; }
+		}
+		
+		@media (max-width: 575px) {
+			#MTXsectionIntroduction { background: linear-gradient(to bottom right, var(--montroix-blue),  var(--bs-light)) !important; }
+			#MTXsectionIntroduction video#MTXbackgroundVideo { display: none; }
+		}
+		
+		@media print {
+			#portfolio ul li a img { height: 2.5rem; }
+			#portfolio .tab-content { border: none !important; padding: 0 !important; }
+			#portfolio .tab-content > .tab-pane { display: block !important; }
+			#portfolio .tab-content > .tab-pane.fade { opacity: 1; }
+			#MTXsectionNews .card { display: block !important; margin: 0; border: none; padding: 0; }
+			#MTXsectionNews .card .card-header { padding-right: 0; padding-bottom: 0; padding-left: 0; }
+			#MTXsectionNews .card .card-body { padding: 0; }
+			#MTXsectionNews .card .card-title { margin: 0; }
+			#MTXsectionNews .card .card-footer { padding-top: 0; padding-right: 0; padding-left: 0; }
+		}
+	</style>
+</head>
+<body class="position-relative bg-light" data-bs-spy="scroll" data-bs-target="#MTXnavigation" data-bs-root-margin="1px 0px -40%" id="top">
+
+
+
+
+
+
+
+
+
+
+	<nav class="navbar navbar-expand-md navbar-dark bg-dark fw-bold shadow fixed-top d-print-none" id="MTXnavbar">
+		<div class="container">
+			<a class="navbar-brand active" href="#"><svg class="img-fluid rounded align-middle" viewBox="0 0 283.3 283.3" ><path class="MTXlogoText" d="M28,132.2V95.1h7l17.5,22.5l17.1-22.5h6.9v37.2h-8v-23c0-0.9,0.1-2.2,0.3-4c-0.9,1.9-1.6,3.2-2.2,3.9 l-14,18.6H51l-14-18.6c-1-1.3-1.8-2.6-2.2-3.8c0.1,1.5,0.2,2.8,0.2,4v23H28z"/><path class="MTXlogoText" d="M94,103.9c0-3.5,0.6-5.8,1.9-7c1.3-1.2,3.7-1.8,7.3-1.8h27.4c3.6,0,6,0.6,7.3,1.8 c1.3,1.2,1.9,3.5,1.9,7v19.6c0,3.5-0.6,5.8-1.9,7c-1.3,1.2-3.7,1.8-7.3,1.8h-27.4c-3.6,0-6-0.6-7.3-1.8c-1.3-1.2-1.9-3.5-1.9-7 V103.9z M102.6,125.3h28.5v-23.5h-28.5V125.3z"/><path class="MTXlogoText" d="M157.9,132.2V95.1h5.9L190,117c1.9,1.6,3.3,2.9,4.2,4c-0.2-3.5-0.4-5.6-0.4-6.4V95.1h7.8v37.2h-5.9 l-27.3-23c-1.2-1-2.2-2-3.1-3c0.2,2.4,0.4,4.4,0.4,5.9v20.1H157.9z"/><path class="MTXlogoText" d="M237.8,101.7v30.5h-8.6v-30.5h-17.1v-6.6H255v6.6H237.8z"/><path class="MTXlogoText" d="M37,187.3v-37.2h31.8c5.6,0,8.4,2.4,8.4,7.2v8.7c0,4.8-2.8,7.2-8.4,7.2H64l17.1,14H68.7l-15-14h-8.2v14 H37z M65,156.5H45.5v10.4H65c1.3,0,2.3-0.1,2.8-0.4c0.7-0.4,1.1-1.3,1.1-2.5v-4.5c0-1.3-0.4-2.1-1.1-2.5 C67.3,156.6,66.3,156.5,65,156.5z"/><path class="MTXlogoText" d="M94,158.9c0-3.5,0.6-5.8,1.9-7c1.3-1.2,3.7-1.8,7.3-1.8h27.4c3.6,0,6,0.6,7.3,1.8c1.3,1.2,1.9,3.5,1.9,7 v19.6c0,3.5-0.6,5.8-1.9,7c-1.3,1.2-3.7,1.8-7.3,1.8h-27.4c-3.6,0-6-0.6-7.3-1.8c-1.3-1.2-1.9-3.5-1.9-7V158.9z M102.6,180.3h28.5 v-23.5h-28.5V180.3z"/><path class="MTXlogoText" d="M158,187.3v-37.2h8.6v37.2H158z"/><path class="MTXlogoTextX" d="M197.6,168.2l-17.9-18.1h11.4l11.9,12.6l11.3-12.6h9.9L208,167.2l20,20.1h-11.7l-13.6-14.4 l-33.2,38.1H158L197.6,168.2z"/><path class="MTXlogoText" d="M181.2,211.1v-5.8h5c0.9,0,1.3,0.4,1.3,1.1v1.3c0,0.8-0.4,1.1-1.3,1.1h-3.7v2.3H181.2z M185.5,206.2 h-3.1v1.5h3.1c0.2,0,0.4,0,0.4-0.1c0.1-0.1,0.2-0.2,0.2-0.4v-0.6c0-0.2-0.1-0.3-0.2-0.4C185.9,206.3,185.8,206.2,185.5,206.2z"/><path class="MTXlogoText" d="M192,207.1v3.9h-1.2v-3.9h-2.3v-0.9h5.8v0.9H192z"/><path class="MTXlogoText" d="M197.6,211.1v-2.1l-2.6-2.6h1.6l1.7,1.8l1.7-1.8h1.4l-2.6,2.6v2.2H197.6z"/><path class="MTXlogoText" d="M207.3,211.1v-5.8h1.4v4.7h4.4v1.1H207.3z"/><path class="MTXlogoText" d="M217.4,207.1v3.9h-1.2v-3.9H214v-0.9h5.8v0.9H217.4z"/><path class="MTXlogoText" d="M221.3,211.1v-4.8h3.2c0.9,0,1.6,0.2,2.1,0.6c0.5,0.4,0.7,1,0.7,1.8c0,1.6-1.1,2.4-3.2,2.4H221.3z M222.4,210.2h1.5c0.8,0,1.3-0.1,1.7-0.3c0.4-0.2,0.6-0.7,0.6-1.3c0-1-0.6-1.5-1.7-1.5h-2.1V210.2z"/></svg></a>
+			<button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarMenuItems" aria-controls="navbarMenuItems" aria-expanded="false" aria-label="Toggle navigation"><span class="navbar-toggler-icon"></span></button>
+			<div class="collapse navbar-collapse" id="navbarMenuItems">
+				<ul class="navbar-nav nav-pills me-auto" id="MTXnavigation">
+					<li class="nav-item text-nowrap"><a class="nav-link px-2 MTXnavlink" href="#about">About</a></li>
+					<li class="nav-item text-nowrap"><a class="nav-link px-2 MTXnavlink" href="#portfolio">Portfolio</a></li>
+					<li class="nav-item text-nowrap"><a class="nav-link px-2 MTXnavlink" href="#staff">Staff</a></li>
+					<li class="nav-item text-nowrap"><a class="nav-link px-2 MTXnavlink" href="#news">News &amp; Events</a></li>
+					<li class="nav-item text-nowrap"><a class="nav-link px-2 MTXnavlink" href="#contact">Contact</a></li>
+				</ul>
+				<ul class="navbar-nav flex-row navbar-social">
+					<li class="nav-item"><a class="nav-link px-2" href="https://www.linkedin.com/company/montroix"><svg xmlns="http://www.w3.org/2000/svg" width="1em" height="1em" fill="currentColor" class="bi bi-linkedin img-fluid" viewBox="0 0 16 16"><path fill-rule="evenodd" d="M0 1.146C0 .513.526 0 1.175 0h13.65C15.474 0 16 .513 16 1.146v13.708c0 .633-.526 1.146-1.175 1.146H1.175C.526 16 0 15.487 0 14.854V1.146zm4.943 12.248V6.169H2.542v7.225h2.401zm-1.2-8.212c.837 0 1.358-.554 1.358-1.248-.015-.709-.52-1.248-1.342-1.248-.822 0-1.359.54-1.359 1.248 0 .694.521 1.248 1.327 1.248h.016zm4.908 8.212h-2.4s.03-6.547 0-7.225h2.4v1.023a5.54 5.54 0 0 0-.016.025h.016v-.025c.32-.493.89-1.193 2.165-1.193 1.58 0 2.764 1.033 2.764 3.252v4.143h-2.4V9.529c0-.972-.348-1.634-1.217-1.634-.664 0-1.059.447-1.233.878-.063.154-.079.37-.079.586v4.035z"/></svg></a></li>
+				</ul>
+			</div>
+		</div>
+	</nav>
+
+
+
+
+
+
+
+
+
+
+	<section class="MTXsection mb-4 pb-3" id="MTXsectionIntroduction">
+		<video class="h-100 bg-primary d-print-none" src="video/bg-movie-triangles.mp4" id="MTXbackgroundVideo" autoplay loop muted playsinline></video>
+		<div class="container bg-light rounded shadow p-4 pt-5 mt-3">
+			<header>
+				<svg class="img-fluid rounded d-block mx-auto" viewBox="0 0 484.6 93.3"><path class="MTXlogoText" d="M28,65.2V28.1h7l17.5,22.5l17.1-22.5h6.9v37.2h-8v-23c0-0.9,0.1-2.2,0.3-4c-0.9,1.9-1.6,3.2-2.2,3.9l-14,18.6H51L37,42.1c-1-1.3-1.8-2.6-2.2-3.8c0.1,1.5,0.2,2.8,0.2,4v23H28z"/><path class="MTXlogoText" d="M94,36.8c0-3.5,0.6-5.8,1.9-7c1.3-1.2,3.7-1.8,7.3-1.8h27.4c3.6,0,6,0.6,7.3,1.8c1.3,1.2,1.9,3.5,1.9,7v19.6c0,3.5-0.6,5.8-1.9,7c-1.3,1.2-3.7,1.8-7.3,1.8h-27.4c-3.6,0-6-0.6-7.3-1.8c-1.3-1.2-1.9-3.5-1.9-7V36.8z M102.6,58.2h28.5V34.7h-28.5V58.2z"/><path class="MTXlogoText" d="M157.9,65.2V28.1h5.9L190,49.9c1.9,1.6,3.3,2.9,4.2,4c-0.2-3.5-0.4-5.6-0.4-6.4V28.1h7.8v37.2h-5.9l-27.3-23c-1.2-1-2.2-2-3.1-3c0.2,2.4,0.4,4.4,0.4,5.9v20.1H157.9z"/><path class="MTXlogoText" d="M237.8,34.7v30.5h-8.6V34.7h-17.1v-6.6H255v6.6H237.8z"/><path class="MTXlogoText" d="M265.6,65.2V28.1h31.8c5.6,0,8.4,2.4,8.4,7.2V44c0,4.8-2.8,7.2-8.4,7.2h-4.9l17.1,14h-12.4l-15-14h-8.2v14H265.6z M293.5,34.4h-19.4v10.4h19.4c1.3,0,2.3-0.1,2.8-0.4c0.7-0.4,1.1-1.3,1.1-2.5v-4.5c0-1.3-0.4-2.1-1.1-2.5C295.8,34.5,294.8,34.4,293.5,34.4z"/><path class="MTXlogoText" d="M322.5,36.8c0-3.5,0.6-5.8,1.9-7c1.3-1.2,3.7-1.8,7.3-1.8h27.4c3.6,0,6,0.6,7.3,1.8c1.3,1.2,1.9,3.5,1.9,7v19.6c0,3.5-0.6,5.8-1.9,7c-1.3,1.2-3.7,1.8-7.3,1.8h-27.4c-3.6,0-6-0.6-7.3-1.8c-1.3-1.2-1.9-3.5-1.9-7V36.8z M331.2,58.2h28.5V34.7h-28.5V58.2z"/><path class="MTXlogoText" d="M386.5,65.2V28.1h8.6v37.2H386.5z"/><path class="MTXlogoTextX" d="M426.1,46.1l-17.9-18.1h11.4l11.9,12.6l11.3-12.6h9.9l-16.2,17.1l20,20.1h-11.7l-13.6-14.4l-33.2,38.1h-11.5L426.1,46.1z"/><path class="MTXlogoText" d="M409.7,88.9v-5.8h5c0.9,0,1.3,0.4,1.3,1.1v1.3c0,0.8-0.4,1.1-1.3,1.1H411v2.3H409.7z M414.1,84.1H411v1.5h3.1c0.2,0,0.4,0,0.4-0.1c0.1-0.1,0.2-0.2,0.2-0.4v-0.6c0-0.2-0.1-0.3-0.2-0.4C414.4,84.1,414.3,84.1,414.1,84.1z"/><path class="MTXlogoText" d="M420.5,85v3.9h-1.2V85H417v-0.9h5.8V85H420.5z"/><path class="MTXlogoText" d="M426.1,88.9v-2.1l-2.6-2.6h1.6l1.7,1.8l1.7-1.8h1.4l-2.6,2.6v2.2H426.1z"/><path class="MTXlogoText" d="M435.8,88.9v-5.8h1.4v4.7h4.4v1.1H435.8z"/><path class="MTXlogoText" d="M446,85v3.9h-1.2V85h-2.3v-0.9h5.8V85H446z"/><path class="MTXlogoText" d="M449.8,88.9v-4.8h3.2c0.9,0,1.6,0.2,2.1,0.6c0.5,0.4,0.7,1,0.7,1.8c0,1.6-1.1,2.4-3.2,2.4H449.8zM451,88.1h1.5c0.8,0,1.3-0.1,1.7-0.3c0.4-0.2,0.6-0.7,0.6-1.3c0-1-0.6-1.5-1.7-1.5H451V88.1z"/></svg>
+				<h1 class="display-4 text-center"><span class="d-none"><span class="montroix">Montroix</span> Pty Ltd<br> </span><small class="text-muted">The international collaboration experts</small></h1>
+			</header>
+			<div class="mtx-section" id="about">
+				<hr>
+				<p class="lead mt-5 mb-4">We are Australia’s #1 consultancy for international research collaboration. <a href="#staff">Our staff</a> have considerable experience in providing advice and managing projects for international clients including governments, institutions, universities and not-for-profit organisations.</p>
+				<div class="row mt-4">
+					<div class="col-md">
+						<p>World leaders in building global knowledge platforms, such as <abbr title="European Cooperation in Science and Technology">COST</abbr> and <abbr title="Forum for European-Australian Science and Technology cooperation">FEAST</abbr>, we are Australia’s foremost experts in the European Union’s large research and innovation program, Horizon Europe.</p>
+					</div>
+					<div class="col-md">
+						<p>We’re located Canberra, Australia, and invite you to <a href="#contact">contact us</a> to discover how we can assist you and your organisation make greater impacts through your global interactions.</p>
+					</div>
+				</div>
+			</div>
+		</div>
+	</section>
+
+
+
+
+
+
+
+
+
+
+	<section class="MTXsection bg-light py-3">
+		<div class="container bg-light py-2">
+			<div class="mtx-section" id="portfolio">
+				<h2 class="display-4 mb-4">Portfolio</h2>
+				
+				<ul class="nav nav-tabs d-print-none" id="portfolioTabs" role="tablist">
+					<li class="nav-item">
+						<a class="nav-link active" id="portfolioProjects-tab" data-bs-toggle="tab" href="#portfolioProjects" role="tab" aria-controls="portfolioProjects" aria-selected="true">Projects</a>
+					</li>
+					<li class="nav-item">
+						<a class="nav-link" id="portfolioEvents-tab" data-bs-toggle="tab" href="#portfolioEvents" role="tab" aria-controls="portfolioEvents" aria-selected="false">Events</a>
+					</li>
+					<li class="nav-item">
+						<a class="nav-link" id="portfolioConsultancies-tab" data-bs-toggle="tab" href="#portfolioConsultancies" role="tab" aria-controls="portfolioConsultancies" aria-selected="false">Consultancies</a>
+					</li>
+				</ul>
+				<div class="tab-content border border-top-0 rounded-bottom bg-white p-3 mb-4" id="portfolioTabsContent">
+					
+					<div class="tab-pane fade show active" id="portfolioProjects" role="tabpanel" aria-labelledby="portfolioProjects-tab">
+						<h3 class="font-weight-normal h4 mt-2 mb-4">Project development, management &amp; participation</h3>
+						<p>At <span class="montroix">Montroix</span> our passion is collaborating with partners for team-based achievements.</p>
+						<p>This stems from our staff’s long history of success in projects funded by the European Union’s Framework Programmes for Research &amp; Innovation, as project contributors as well as lead project coordinators.</p>
+						<p>On the basis of our collective expertise in “international collaboration”, we have been involved with numerous projects and proposals connecting international actors together, in areas such as:</p>
+						<ul>
+							<li>international research networks</li>
+							<li>research for development</li>
+							<li>information and communications technologies</li>
+							<li>governance and policy</li>
+							<li>health</li>
+						</ul>
+						<p>and working with people from a diverse group of nations, including: Australia, Austria, Belgium, China, Egypt, Estonia, Fiji, France, French Polynesia, Germany, Greece, Italy, Japan, New Caledonia, New Zealand, the Netherlands, Papua New Guinea, Portugal, Samoa, Singapore, Slovenia, South Africa, Taiwan, Tonga, the United Kingdom, and Vanuatu.</p>
+						<p>Below are summaries of our involvement in some select projects:</p>
+						
+						<hr>
+						
+						<div class="float-end mb-3 ms-3"><a href="https://cordis.europa.eu/project/rcn/109857/en"><img src="img/PACE-Net_Plus.png" alt="PACE-Net Plus" loading="lazy"></a></div>
+						<p><span class="montroix">Montroix</span> was a partner in the <a href="http://plus.pacenet.eu.s3-website-eu-west-1.amazonaws.com/"><abbr title="Pacific-Europe Network for Science, Technology and Innovation">PACE-Net Plus</abbr> project</a> (<em>Pacific-Europe Network for Science, Technology and Innovation</em>), taking a lead role in coordinating the development of a regional policy basis for science and innovation in the Pacific islands, and synthesising many years of outcomes and stakeholder perspectives into this policy.</p>
+						<p>In addition, our responsibilities extended to Horizon 2020 information and training activities across the Pacific islands, and assisting with the development of multilateral research projects with Pacific research actors.</p>
+						<p class="text-center"><img class="img-fluid shadow" src="img/PACE-Net_Plus_in_Brussels.jpg" alt="PACE-Net Plus in Brussels" loading="lazy"></p>
+						<hr>
+						<div class="float-start me-3 mb-3"><a href="https://cordis.europa.eu/project/rcn/109858/en"><img src="img/INCONTACT-2020.png" alt="INCONTACT-2020" loading="lazy"></a></div>
+						<p>Being the regional experts in research collaboration with Europe, and having a strong history of involvement in international projects connected with the region, we were invited to participate as Advisors to the <a href="https://cordis.europa.eu/project/rcn/109858/en"><abbr title="INCONTACT: Supporting the International Dimension of Horizon 2020">INCONTACT 2020</abbr> project</a>, an initiative to support the engagement of all international actors with Horizon 2020 (the European Union’s large research and innovation funding program).</p>
+						<p>In this capacity we ensured the success of the project by continuing to offer a non-<abbr title="European Union">EU</abbr> perspective on all aspects of Horizon 2020, including funding rules, proposal and consortia development, risk mitigation strategies, promotional and outreach activities.</p>
+						<p>During the course of the project we also delivered numerous strategically-focussed presentations on ways to pragmatically engage non-European participants in Horizon 2020, and offered insights into the realities of collaborating with Horizon 2020 from within individual national research environments.</p>
+						<p class="text-center"><img class="img-fluid shadow" data-bs-toggle="tooltip" data-bs-animation="false" data-bs-placement="bottom" src="img/INCONTACT-2020_6th_INCO_Conference.jpg" alt="Rado Faletič at the 6th INCO Conference in Beijing" title="Rado Faletič at the 6th INCO Conference in Beijing" loading="lazy"></p>
+					</div>
+					
+					<div class="tab-pane fade" id="portfolioEvents" role="tabpanel" aria-labelledby="portfolioEvents-tab">
+						<h3 class="font-weight-normal h4 mt-2 mb-4">Event design, management &amp; delivery</h3>
+						<p>Take a look (<a href="#news">below</a>) at the extensive list of events that we have delivered or contributed to over the years.</p>
+						<p>With our staff having science and engineering backgrounds, we are uniquely qualified to offer event-related services with a great deal of understanding of your content and motivations, particularly when related to international research engagement.</p>
+						<p>Our clients not only appreciate our professional and knowledgable input into their events, they also enjoy our encouragement and enthusiasm that greatly contribute to event success.</p>
+						<p>No matter the size of the event, we take absolute delight in engaging with an audience that is hungry for knowledge. Our aim is to leave audience members more energised at the end of a long day, than that moment early in the morning when they get their first hit of caffeine!</p>
+						<p>Some of our most memorable engagements include:</p>
+						<div class="row row-cols-1 row-cols-lg-3">
+							<div class="col mb-3">
+								<div class="card h-100">
+									<img class="card-img-top shadow" src="img/RMIT_Futures_Conference.jpg" alt="Ziggy Switkowski &amp; Bruce Wilson" loading="lazy">
+									<div class="card-body">
+										<h4 class="card-title h5"><abbr title="Royal Melbourne Institute of Technology">RMIT</abbr> Futures Conference: Research Requires Collaboration</h4>
+										<p class="card-text">We were asked by the <a href="https://www.rmit.edu.au/eucentre"><abbr title="European Union">EU</abbr> Centre at <abbr title="Royal Melbourne Institute of Technology">RMIT</abbr></a> to develop a program that explored the benefits of Australian research collaboration with Horizon 2020, and more generally across the world. Not only did we develop a timely program – exploring relevant Australian policies and programs, and analysing a number of successful case-studies – we were able to attract high profile actors from Australia’s research and innovation landscape, including Dr Ziggy Switkowski <abbr title="Officer of the Order of Australia">AO</abbr> (Chair of <a href="https://www.nbnco.com.au/"><abbr title="National Broadband Network">NBN</abbr> Co.</a>), Patricia Kelly <abbr title="Public Service Medal">PSM</abbr> (Director General of <a href="https://www.ipaustralia.gov.au/"><abbr title="intellectual property">IP</abbr> Australia</a>), and Professor Ian Chubb <abbr title="Companion of the Order of Australia">AC</abbr> (former <a href="https://www.chiefscientist.gov.au/">Chief Scientist of Australia</a>).</p>
+									</div>
+									<div class="card-footer">
+										<a href="https://www.rmit.edu.au/content/dam/rmit/documents/events/eu-centre-h2020-future-conference.pdf">www.rmit.edu.au/content/dam/rmit/documents/events/eu-centre-h2020-future-conference.pdf</a>
+									</div>
+								</div>
+							</div>
+							<div class="col mb-3">
+								<div class="card h-100">
+									<img class="card-img-top shadow" src="img/PACE-Net_Plus_policy_dialogue.jpg" alt="PACE-Net Plus conference attendees" loading="lazy">
+									<div class="card-body">
+										<h4 class="card-title h5"><abbr title="European Union">EU</abbr>-Pacific bi-regional policy dialogue platforms</h4>
+										<p class="card-text">During the course of the <abbr title="Pacific-Europe Network for Science, Technology and Innovation">PACE-Net Plus</abbr> project we were intimately involved with the development of a series of bi-regional policy dialogue events, focussed on science, technology and innovation (<abbr title="science, technology and innovation">ST&amp;I</abbr>). Our role in these events was primarily as discussant and rapporteur. Having this role enabled us to subsequently synthesise several years of dialogue from these events, and use this as an important basis for development of a <a href="http://pacenet.plus.s3-website-ap-southeast-2.amazonaws.com/#policy">Pacific regional policy framework on <abbr title="science, technology and innovation">ST&amp;I</abbr></a>. These discussions have lead directly to a number of Pacific island nations initiating their own national <abbr title="science, technology and innovation">ST&amp;I</abbr> policies, and a political recognition of the important role that <abbr title="science, technology and innovation">ST&amp;I</abbr> can play in improving social and economic well-being in <a href="https://sustainabledevelopment.un.org/topics/sids"><abbr title="Small Island Developing States">SIDS</abbr></a> nations.</p>
+									</div>
+									<div class="card-footer">
+										<a href="http://plus.pacenet.eu.s3-website-eu-west-1.amazonaws.com/events/pacenetplus">plus.pacenet.eu/events/pacenetplus</a>
+									</div>
+								</div>
+							</div>
+							<div class="col mb-3">
+								<div class="card h-100">
+									<img class="card-img-top shadow" src="img/Horizon_2020_infoday.jpg" alt="Horizon 2020" loading="lazy">
+									<div class="card-body">
+										<h4 class="card-title h5">Horizon 2020 information day</h4>
+										<p class="card-text">Within days of Horizon 2020 being <a href="http://europa.eu/rapid/press-release_IP-13-1232_en.htm">launched</a> in Europe, we organised a regional “launch” at the University of Technology Sydney, with presentations from program and subject-matter experts. This event delivered timely information and advice to researchers seeking to engage with this large research funding program. The greatest impact, however, was the extraordinary amount of productive networking between Australian and Pacific researchers, particularly looking to involve their European connections to advance significant international research issues, such as climate change, environmental protection, natural resource management, and economic security.</p>
+									</div>
+									<div class="card-footer">
+										<a href="http://plus.pacenet.eu.s3-website-eu-west-1.amazonaws.com/events/horizon2020-infoday-2013">plus.pacenet.eu/events/horizon2020-infoday-2013</a>
+									</div>
+								</div>
+							</div>
+						</div>
+					</div>
+					
+					<div class="tab-pane fade" id="portfolioConsultancies" role="tabpanel" aria-labelledby="portfolioConsultancies-tab">
+						<h3 class="font-weight-normal h4 mt-2 mb-4">Expert advice &amp; research</h3>
+						<p>In addition to our clients asking us to contribute to high-profile projects and events, many come to us for confidential advice and research.</p>
+						<p>These revolve around three key types of work:</p>
+						<ol>
+							<li>expert advice and analysis of international research collaboration;</li>
+							<li>evaluation studies (including impact assessments), and;</li>
+							<li>market research.</li>
+						</ol>
+						<p>Being a private and independent <abbr title="small or medium-sized enterprise">SME</abbr> (i.e. we are not linked to any government agencies, public institutions or corporations), we are ideally placed to deliver honest and frank work for your needs.</p>
+						<p>Past work has included:</p>
+						<ul>
+							<li>confidential briefings on third country (i.e. non-European) engagement with Horizon 2020, including modalities of collaboration and pathways for success;</li>
+							<li>Horizon 2020 funding pre- and post-award assistance;</li>
+							<li>proposal reviews, including strategic advice and expert input;</li>
+							<li>longitudinal studies of funded programs and projects;</li>
+							<li>analysis of market opportunities in specified research domains;</li>
+							<li>university-level course evaluations, and accreditation documentation;</li>
+							<li>professional introductions for international visitors, and;</li>
+							<li>we occasionally develop websites and provide website/server and cloud computing support for higher-education and research projects.</li>
+						</ul>
+					</div>
+					
+				</div>
+				
+				<hr>
+				
+				<p class="lead">Some of our clients:</p>
+				<ul class="list-inline text-center">
+					<li class="list-inline-item p-1" data-bs-toggle="tooltip" data-bs-animation="false" title="European Commission"><a href="https://ec.europa.eu/info/index_en"><img class="img-thumbnail shadow" src="img/logos/EC.png" alt="European Commission" loading="lazy"></a></li>
+					<li class="list-inline-item p-1" data-bs-toggle="tooltip" data-bs-animation="false" title="Australasian Research Management Society"><a href="https://researchmanagement.org.au/"><img class="img-thumbnail shadow" src="img/logos/ARMS.png" alt="Australasian Research Management Society" loading="lazy"></a></li>
+					<li class="list-inline-item p-1" data-bs-toggle="tooltip" data-bs-animation="false" title="RMIT University"><a href="https://www.rmit.edu.au/"><img class="img-thumbnail shadow" src="img/logos/RMIT.png" alt="RMIT University" loading="lazy"></a></li>
+					<li class="list-inline-item p-1" data-bs-toggle="tooltip" data-bs-animation="false" title="National Youth Science Forum"><a href="https://www.nysf.edu.au/"><img class="img-thumbnail shadow" src="img/logos/NYSF.png" alt="National Youth Science Forum" loading="lazy"></a></li>
+					<li class="list-inline-item p-1" data-bs-toggle="tooltip" data-bs-animation="false" title="Landcare Research"><a href="https://www.landcareresearch.co.nz/"><img class="img-thumbnail shadow" src="img/logos/LCR.png" alt="Landcare Research" loading="lazy"></a></li>
+					<li class="list-inline-item p-1" data-bs-toggle="tooltip" data-bs-animation="false" title="The University of Sydney"><a href="https://sydney.edu.au/"><img class="img-thumbnail shadow" src="img/logos/USyd.png" alt="The University of Sydney" loading="lazy"></a></li>
+					<li class="list-inline-item p-1" data-bs-toggle="tooltip" data-bs-animation="false" title="eutema GmbH"><a href="https://www.eutema.com/"><img class="img-thumbnail shadow" src="img/logos/eutema.png" alt="eutema GmbH" loading="lazy"></a></li>
+					<li class="list-inline-item p-1" data-bs-toggle="tooltip" data-bs-animation="false" title="The Australian National University"><a href="https://www.anu.edu.au/"><img class="img-thumbnail shadow" src="img/logos/ANU.png" alt="The Australian National University" loading="lazy"></a></li>
+					<li class="list-inline-item p-1" data-bs-toggle="tooltip" data-bs-animation="false" title="Canada — Trade Commissioner Service"><a href="https://tradecommissioner.gc.ca/"><img class="img-thumbnail shadow" src="img/logos/Canada.png" alt="Canada — Trade Commissioner Service" loading="lazy"></a></li>
+					<li class="list-inline-item p-1" data-bs-toggle="tooltip" data-bs-animation="false" title="Cardno"><a href="https://www.cardno.com/"><img class="img-thumbnail shadow" src="img/logos/Cardno.png" alt="Cardno" loading="lazy"></a></li>
+					<li class="list-inline-item p-1" data-bs-toggle="tooltip" data-bs-animation="false" title="EU-Japan Centre for Industrial Cooperation"><a href="https://www.eu-japan.eu/"><img class="img-thumbnail shadow" src="img/logos/EUJCIC.png" alt="EU-Japan Centre for Industrial Cooperation" loading="lazy"></a></li>
+					<li class="list-inline-item p-1" data-bs-toggle="tooltip" data-bs-animation="false" title="German Aerospace Agency – Project Management Agency"><a href="https://www.dlr.de/pt/en"><img class="img-thumbnail shadow" src="img/logos/DLR.png" alt="German Aerospace Agency – Project Management Agency" loading="lazy"></a></li>
+					<li class="list-inline-item p-1" data-bs-toggle="tooltip" data-bs-animation="false" title="Institut de Recherche pour le Développement"><a href="https://en.ird.fr/"><img class="img-thumbnail shadow" src="img/logos/IRD.png" alt="Institut de Recherche pour le Développement" loading="lazy"></a></li>
+					<li class="list-inline-item p-1" data-bs-toggle="tooltip" data-bs-animation="false" title="La Trobe University"><a href="https://www.latrobe.edu.au/"><img class="img-thumbnail shadow" src="img/logos/LaTrobe.png" alt="La Trobe University" loading="lazy"></a></li>
+					<li class="list-inline-item p-1" data-bs-toggle="tooltip" data-bs-animation="false" title="Monash University"><a href="https://www.monash.edu/"><img class="img-thumbnail shadow" src="img/logos/Monash.png" alt="Monash University" loading="lazy"></a></li>
+					<li class="list-inline-item p-1" data-bs-toggle="tooltip" data-bs-animation="false" title="The University of Newcastle"><a href="https://www.newcastle.edu.au/"><img class="img-thumbnail shadow" src="img/logos/UoN.png" alt="The University of Newcastle" loading="lazy"></a></li>
+				</ul>
+			</div>
+		</div>
+	</section>
+
+
+
+
+
+
+
+
+
+
+	<section class="MTXsection bg-secondary py-3">
+		<div class="container bg-light py-2 rounded shadow">
+			<div class="mtx-section" id="staff">
+				<h2 class="display-4 mb-4">Staff</h2>
+				<div class="row row-cols-1 row-cols-lg-1">
+					<div class="col mb-4">
+						<div class="card shadow h-100" id="Rado">
+							<div class="card-header">
+								<h4 class="card-title">Dr Rado Faletič<br> <small class="text-muted">Director</small></h4>
+							</div>
+							<div class="card-body">
+								<img class="w-25 mb-3 ms-3 rounded shadow float-end" src="img/RF_2015-06-26.jpg" alt="Rado Faletič" loading="lazy">
+								<p>Rado was previously the Executive Director of the Forum for European-Australian Science and Technology cooperation (<abbr title="Forum for European-Australian Science and Technology cooperation">FEAST</abbr>), and has held a number of teaching and <abbr title="information technology">IT</abbr> positions at <a href="https://www.anu.edu.au/">The Australian National University (<abbr title="The Australian National University">ANU</abbr>)</a>. <abbr title="Forum for European-Australian Science and Technology cooperation">FEAST</abbr> was established by the European Union and the Australian Government to highlight, promote, and facilitate research collaboration between Europe and Australia.</p>
+								<p>He holds a <a href="https://hdl.handle.net/1885/46916"><abbr title="Doctor of Philosophy">PhD</abbr> in shock tunnel tomography</a>, and his other research projects have included the spatial modelling of water flows in de-forested landscapes, and adaptive seismic tomography.</p>
+								<p>Rado has broad-ranging professional experience in higher-education and research, business and the not-for-profit sectors. His core strengths are an ability to effectively communicate complex issues, a flair for questioning assumptions and exploring alternative solutions to problems, and flexibility in his approach to tasks that makes him easy to work with and quick to adapt to new situations.</p>
+								<p>In addition to his professional work with <span class="montroix">Montroix</span>, Rado also enjoys coding for fun, and is currently working on a creative art app based on the surprising world of mathematical transforms.</p>
+							</div>
+							<div class="card-footer text-muted">
+								<a href="https://www.linkedin.com/in/radofaletic">linkedin.com/in/radofaletic</a>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</section>
+
+
+
+
+
+
+
+
+
+
+	<section class="MTXsection bg-light py-3" id="MTXsectionNews">
+		<div class="container bg-light py-2">
+			<div class="mtx-section" id="news">
+				<h2 class="display-4 mb-4" id="newsTitle">News, Events &amp; Publications</h2>
+				
+				<div class="row row-cols-1 row-cols-md-2 row-cols-lg-3 row-cols-xxl-4">
+					
+					<div class="col mb-4 MTXnewsItem">
+						<div class="card hover h-100">
+							<div class="card-header small pb-0 border-bottom-0">
+								<span class="MTXtagDate badge bg-secondary">June 2022</span>
+								<span class="MTXtagCategory badge bg-secondary">workshop</span>
+							</div>
+							<div class="card-body small py-0">
+								<div class="card-title"><abbr title="Australasian Research Management Society">ARMS</abbr> Winter School: Securing International Research Funding</div>
+								<p class="card-text small">This workshop introduces the paradigms and practices of international research collaboration and international funding opportunities.</p>
+							</div>
+						</div>
+					</div>
+					
+					<div class="col mb-4 MTXnewsItem">
+						<div class="card hover h-100">
+							<div class="card-header small pb-0 border-bottom-0">
+								<span class="MTXtagDate badge bg-secondary">May 2022</span>
+								<span class="MTXtagCategory badge bg-secondary">webinar</span>
+							</div>
+							<div class="card-body small py-0">
+								<div class="card-title">Opportunities in Australia: The Australian Research Landscape</div>
+								<p class="card-text small">Presentation of a report on the Australian research funding landscape and potential opportunities for Canadian researchers.</p>
+							</div>
+							<div class="card-footer small pt-0 border-top-0"></div>
+						</div>
+					</div>
+					
+					<div class="col mb-4 MTXnewsItem">
+						<div class="card hover h-100">
+							<div class="card-header small pb-0 border-bottom-0">
+								<span class="MTXtagDate badge bg-secondary">December 2021</span>
+								<span class="MTXtagCategory badge bg-secondary">interview</span>
+							</div>
+							<div class="card-body small py-0">
+								<div class="card-title">‘Take Australia with you’: gaining postdoc experience in Europe</div>
+								<p class="card-text small"><span class="text-muted">with <span class="fst-italic">Rado Faletič</span></span><br>
+									Top tips to get junior researchers on a plane to Europe for an EU-funded fellowship.</p>
+							</div>
+							<div class="card-footer small pt-0 border-top-0"><a class="stretched-link small" href="https://www.researchprofessionalnews.com/rr-funding-insight-2021-12-take-australia-with-you-gaining-postdoc-experience-in-europe/">www.researchprofessionalnews.com/rr-funding-insight-2021-12-take-australia-with-you-gaining-postdoc-experience-in-europe/</a></div>
+						</div>
+					</div>
+					
+					<div class="col mb-4 MTXnewsItem">
+						<div class="card hover h-100">
+							<div class="card-header small pb-0 border-bottom-0">
+								<span class="MTXtagDate badge bg-secondary">April 2021</span>
+								<span class="MTXtagCategory badge bg-secondary">seminar</span>
+							</div>
+							<div class="card-body small py-0">
+								<div class="card-title"><abbr title="Australasian Research Management Society">ARMS</abbr> Winter School 2021 — Meet the Presenters</div>
+								<p class="card-text small">ARMS Winter School presenters will speak for a few minutes about their electives and answer questions.</p>
+							</div>
+							<div class="card-footer small pt-0 border-top-0"><a class="stretched-link small" href="https://www.researchmanagement.org.au/events/arms-winter-school-2021-meet-presenters">www.researchmanagement.org.au/events/arms-winter-school-2021-meet-presenters</a></div>
+						</div>
+					</div>
+					
+					<div class="col mb-4 MTXnewsItem">
+						<div class="card hover h-100">
+							<div class="card-header small pb-0 border-bottom-0">
+								<span class="MTXtagDate badge bg-secondary">July 2020</span>
+								<span class="MTXtagCategory badge bg-secondary">workshop</span>
+							</div>
+							<div class="card-body small py-0">
+								<div class="card-title"><abbr title="Australasian Research Management Society">ARMS</abbr> Winter School: Securing International Research Funding</div>
+								<p class="card-text small">This workshop introduces the paradigms and practices of international research collaboration and international funding opportunities.</p>
+							</div>
+						</div>
+					</div>
+					
+					<div class="col mb-4 MTXnewsItem">
+						<div class="card hover h-100">
+							<div class="card-header small pb-0 border-bottom-0">
+								<span class="MTXtagDate badge bg-secondary">June 2020</span>
+								<span class="MTXtagCategory badge bg-secondary">op-ed</span>
+							</div>
+							<div class="card-body small py-0">
+								<div class="card-title">Capital raising for research in the wake of COVID-19</div>
+								<p class="card-text small"><span class="text-muted">by <span class="fst-italic">Rado Faletič</span></span><br>
+									It is essential to preserve and grow our capital if we hope to invest in new industries that will be the catalyst for our recovery and long-term prosperity.</p>
+							</div>
+							<div class="card-footer small pt-0 border-top-0"><a class="MTXdisplayArticle small stretched-link" href="publications/2020-06_Capital_raising.html">www.montroix.com/publications/2020-06_Capital_raising.html</a></div>
+						</div>
+					</div>
+					
+					<div class="col mb-4 MTXnewsItem">
+						<div class="card hover h-100">
+							<div class="card-header small pb-0 border-bottom-0">
+								<span class="MTXtagDate badge bg-secondary">June 2019</span>
+								<span class="MTXtagCategory badge bg-secondary">webinar</span>
+							</div>
+							<div class="card-body small py-0">
+								<div class="card-title">What’s up Downunder – Opportunities for <abbr title="information and communications technologies">ICT</abbr> research collaboration with Australia</div>
+								<p class="card-text small">Information on collaboration and funding opportunities between the European Union and Australia in the field of information and communication technologies. Experts provided insights into the Australian research and innovation environment and information about current funding opportunities.</p>
+							</div>
+							<div class="card-footer small pt-0 border-top-0"><a class="small stretched-link" href="https://youtu.be/jw_ODJhrQW8">youtu.be/jw_ODJhrQW8</a></div>
+						</div>
+					</div>
+					
+					<div class="col mb-4 MTXnewsItem">
+						<div class="card hover h-100">
+							<div class="card-header small pb-0 border-bottom-0">
+								<span class="MTXtagDate badge bg-secondary">June 2019</span>
+								<span class="MTXtagCategory badge bg-secondary">workshop</span>
+							</div>
+							<div class="card-body small py-0">
+								<div class="card-title"><abbr title="Australasian Research Management Society">ARMS</abbr> Professional Level Accreditation: Understanding International Research Funding</div>
+								<p class="card-text small">This workshop introduces the paradigms and practices of international research collaboration and international funding opportunities. The workshop focuses on skills needed to confidently and professionally support organisations with international research activities.</p>
+							</div>
+						</div>
+					</div>
+					
+					<div class="col mb-4 MTXnewsItem">
+						<div class="card hover h-100">
+							<div class="card-header small pb-0 border-bottom-0">
+								<span class="MTXtagDate badge bg-secondary">June 2019</span>
+								<span class="MTXtagCategory badge bg-secondary">publication</span>
+							</div>
+							<div class="card-body small py-0">
+								<div class="card-title">Green Bioplastics as Part of a Circular Bioeconomy, showcased in <span class="fst-italic">Trends Collection on Conservation</span></div>
+								<p class="card-text small">This Trends Collection on Conservation highlights articles from a wide range of fields, discussing how to conserve our natural world. This collection brings attention to a range of potential solutions, including the use of natural toxins, biological enzymes, boron in electronics, and green plastics.</p>
+							</div>
+							<div class="card-footer small pt-0 border-top-0"><a class="small stretched-link" href="https://doi.org/10.1016/j.tplants.2018.11.010">doi:10.1016/j.tplants.2018.11.010</a></div>
+						</div>
+					</div>
+					
+					<div class="col mb-4 MTXnewsItem">
+						<div class="card hover h-100">
+							<div class="card-header small pb-0 border-bottom-0">
+								<span class="MTXtagDate badge bg-secondary">February 2019</span>
+								<span class="MTXtagCategory badge bg-secondary">workshop</span>
+							</div>
+							<div class="card-body small py-0">
+								<div class="card-title">International Dimensions of Artificial Intelligence</div>
+								<p class="card-text small">How public policy, research and industry are approaching opportunities and risks of <abbr title="artificial intelligence">AI</abbr> in an international context – a contribution to the way forward in <abbr title="European Union">EU</abbr>-Australia collaboration.</p>
+							</div>
+							<div class="card-footer small pt-0 border-top-0"><a class="small stretched-link" href="https://dimension-of-ai-2019.eventbrite.com.au/">dimension-of-ai-2019.eventbrite.com.au</a></div>
+						</div>
+					</div>
+					
+					<div class="col mb-4 MTXnewsItem">
+						<div class="card hover h-100">
+							<div class="card-header small pb-0 border-bottom-0">
+								<span class="MTXtagDate badge bg-secondary">January 2019</span>
+								<span class="MTXtagCategory badge bg-secondary">publication</span>
+							</div>
+							<div class="card-body small py-0">
+								<div class="card-title">Green Bioplastics as Part of a Circular Bioeconomy, in <span class="fst-italic">Trends in Plant Science</span></div>
+								<p class="card-text small"><span class="text-muted">by <span class="fst-italic">Hakan Karan, Christiane Funk, Martin Grabert, Melanie Oey, Ben Hankamer</span></span><br>
+									Fossil fuel and plastic production are currently integrated. About 80% of manufactured plastic accumulates as waste in landfills and natural environments, presenting an increasing hazard. Biodegradable and bio-based plastics present a viable and attractive alternative.</p>
+							</div>
+							<div class="card-footer small pt-0 border-top-0"><a class="small stretched-link" href="https://doi.org/10.1016/j.tplants.2018.11.010">doi:10.1016/j.tplants.2018.11.010</a></div>
+						</div>
+					</div>
+					
+					<div class="col mb-4 MTXnewsItem">
+						<div class="card hover h-100">
+							<div class="card-header small pb-0 border-bottom-0">
+								<span class="MTXtagDate badge bg-secondary">October 2018</span>
+								<span class="MTXtagCategory badge bg-secondary">workshop</span>
+							</div>
+							<div class="card-body small py-0">
+								<div class="card-title">Digital Science and International Cooperation: new opportunities for digitally enabled Australia-<abbr title="European Union">EU</abbr> <abbr title="information and communication technologies">ICT</abbr> research collaboration</div>
+								<p class="card-text small">This half-day workshop aims to define the necessary next steps to devise a roadmap for improved European-Australian collaboration in <abbr title="information and communication technologies">ICT</abbr> research and innovation.</p>
+							</div>
+						</div>
+					</div>
+					
+					<div class="col mb-4 MTXnewsItem">
+						<div class="card hover h-100">
+							<div class="card-header small pb-0 border-bottom-0">
+								<span class="MTXtagDate badge bg-secondary">September 2018</span>
+								<span class="MTXtagCategory badge bg-secondary">presentation</span>
+							</div>
+							<div class="card-body small py-0">
+								<div class="card-title">2<sup>nd</sup> <abbr title="Slovenian Australian Academic Association">SAAA</abbr> Conference 2018: Linking industry and research</div>
+								<p class="card-text small">Opportunities to support Slovenia-Australia research collaboration</p>
+							</div>
+							<div class="card-footer small pt-0 border-top-0"><a class="small stretched-link" href="http://saaa.si/saaa-conference-2018-program-and-venue/">saaa.si/saaa-conference-2018-program-and-venue</a></div>
+						</div>
+					</div>
+					
+					<div class="col mb-4 MTXnewsItem">
+						<div class="card hover h-100">
+							<div class="card-header small pb-0 border-bottom-0">
+								<span class="MTXtagDate badge bg-secondary">August 2018</span>
+								<span class="MTXtagCategory badge bg-secondary">workshop</span>
+							</div>
+							<div class="card-body small py-0">
+								<div class="card-title"><abbr title="Australasian Research Management Society">ARMS</abbr> Professional Level Accreditation: Understanding International Research Funding</div>
+								<p class="card-text small">This workshop introduces the paradigms and practices of international research collaboration and international funding opportunities. The workshop focuses on skills needed to confidently and professionally support organisations with international research activities.</p>
+							</div>
+						</div>
+					</div>
+					
+					<div class="col mb-4 MTXnewsItem">
+						<div class="card hover h-100">
+							<div class="card-header small pb-0 border-bottom-0">
+								<span class="MTXtagDate badge bg-secondary">May 2018</span>
+								<span class="MTXtagCategory badge bg-secondary">panel</span>
+							</div>
+							<div class="card-body small py-0">
+								<div class="card-title">European networking event at <abbr title="Centrum für Büroautomation, Informationstechnologie und Telekommunikation">CeBIT</abbr> Australia 2018</div>
+								<p class="card-text small">At this vibrant networking event panel members discussed and answered question about: the future of Europe’s economic landscape; how a European Free Trade Agreement will work; how innovation and technology is playing a key role in the growth of bilateral trade; Australian business leaders perspectives on where emerging markets are rising and how market access can successfully be achieved, and; negotiations for a European Free Trade agreement.</p>
+							</div>
+							<div class="card-footer small pt-0 border-top-0"><a class="small stretched-link" href="http://www.businessbeyondborders.info/cebit-2018/">www.businessbeyondborders.info/cebit-2018</a></div>
+						</div>
+					</div>
+					
+					<div class="col mb-4 MTXnewsItem">
+						<div class="card hover h-100">
+							<div class="card-header small pb-0 border-bottom-0">
+								<span class="MTXtagDate badge bg-secondary">March 2018</span>
+								<span class="MTXtagCategory badge bg-secondary">video</span>
+							</div>
+							<div class="card-body small py-0">
+								<div class="card-title">Plastics in the Ocean and the <abbr title="Sustainable Development Goals">SDGs</abbr></div>
+								<p class="card-text small">We throw 8 billion kilograms of plastic waste into the ocean every year. Let’s work the solution… now!</p>
+								<div class="ratio ratio-16x9">
+									<video class="img-fluid" poster="img/Plastics_in_the_Ocean_and_the_SDGs.jpg" controls>
+										<source src="video/Plastics_in_the_Ocean_and_the_SDGs.mp4" type="video/mp4">
+										Your device does not support this type of video.
+									</video>
+								</div>
+							</div>
+						</div>
+					</div>
+					
+					<div class="col mb-4 MTXnewsItem">
+						<div class="card hover h-100">
+							<div class="card-header small pb-0 border-bottom-0">
+								<span class="MTXtagDate badge bg-secondary">March 2018</span>
+								<span class="MTXtagCategory badge bg-secondary">handbook</span>
+							</div>
+							<div class="card-body small py-0">
+								<div class="card-title"><abbr title="EU-Pacific Partnerships for ICT RDI">EPIC</abbr> Handbook on Australia, New Zealand, Singapore programmes for <abbr title="European Union">EU</abbr> researchers</div>
+								<p class="card-text small">The handbook equips <abbr title="European Union">EU</abbr> stakeholders with a clear panorama of local research programmes open to collaboration with Europeans, detailing the possibilities and the conditions to access, participate, or being funded. It is composed of three dedicated chapters for Australia, Singapore, and New Zealand.</p>
+							</div>
+							<div class="card-footer small pt-0 border-top-0"><a class="small stretched-link" href="https://www.epicproject.eu/fileadmin/user_upload/D1.3_Handbook_for_EU_Researchers_final.pdf">www.epicproject.eu/fileadmin/user_upload/D1.3_Handbook_for_EU_Researchers_final.pdf</a></div>
+						</div>
+					</div>
+					
+					<div class="col mb-4 MTXnewsItem">
+						<div class="card hover h-100">
+							<div class="card-header small pb-0 border-bottom-0">
+								<span class="MTXtagDate badge bg-secondary">February 2018</span>
+								<span class="MTXtagCategory badge bg-secondary">op-ed</span>
+							</div>
+							<div class="card-body small py-0">
+								<div class="card-title">Ocean plastics and the <abbr title="Sustainable Development Goals">SDGs</abbr></div>
+								<p class="card-text small"><span class="text-muted">by <span class="fst-italic">Martin Grabert</span></span><br>
+									The era of bio-plastics is upon us. New innovations and commercial opportunities in bio-plastics promise to make significant progress on the <abbr title="United Nations">UN</abbr>’s Sustainable Development Goals (<abbr title="Sustainable Development Goals">SDGs</abbr>).</p>
+							</div>
+							<div class="card-footer small pt-0 border-top-0"><a class="MTXdisplayArticle small stretched-link" href="publications/2018-02_Ocean_plastics_and_the_SDGs.html">www.montroix.com/publications/2018-02_Ocean_plastics_and_the_SDGs.html</a></div>
+						</div>
+					</div>
+					
+					<div class="col mb-4 MTXnewsItem">
+						<div class="card hover h-100">
+							<div class="card-header small pb-0 border-bottom-0">
+								<span class="MTXtagDate badge bg-secondary">December 2017</span>
+								<span class="MTXtagCategory badge bg-secondary">roundtable</span>
+							</div>
+							<div class="card-body small py-0">
+								<div class="card-title">European <abbr title="information and communications technologies">ICT</abbr> and Horizon 2020</div>
+								<p class="card-text small">Dr Erich Prem, coordinator of <abbr title="EU-Pacific Partnerships for ICT RD&amp;I">EPIC</abbr> and <abbr title="chief executive officer">CEO</abbr> of Eutema, introduced the European <abbr title="information and communications technologies">ICT</abbr> context, including the large research and innovation funding program – Horizon 2020.</p>
+							</div>
+							<div class="card-footer small pt-0 border-top-0"></div>
+						</div>
+					</div>
+					
+					<div class="col mb-4 MTXnewsItem">
+						<div class="card hover h-100">
+							<div class="card-header small pb-0 border-bottom-0">
+								<span class="MTXtagDate badge bg-secondary">December 2017</span>
+								<span class="MTXtagCategory badge bg-secondary">briefing</span>
+							</div>
+							<div class="card-body small py-0">
+								<div class="card-title">European Digital Single Market</div>
+								<p class="card-text small">Dr Erich Prem, <abbr title="chief executive officer">CEO</abbr> of Eutema, presented an analysis of the currently changing European regulatory environment in the area of <abbr title="information and communications technologies">ICT</abbr> (such as the Digital Single Market and Data Protection Rules) that will provide new opportunities for innovators.</p>
+							</div>
+							<div class="card-footer small pt-0 border-top-0"></div>
+						</div>
+					</div>
+					
+					<div class="col mb-4 MTXnewsItem">
+						<div class="card hover h-100">
+							<div class="card-header small pb-0 border-bottom-0">
+								<span class="MTXtagDate badge bg-secondary">October 2017</span>
+								<span class="MTXtagCategory badge bg-secondary">workshop</span>
+							</div>
+							<div class="card-body small py-0">
+								<div class="card-title">Horizon 2020: Research Collaboration with the European Union</div>
+							</div>
+							<div class="card-footer small pt-0 border-top-0"><a class="small stretched-link" href="https://cecs.anu.edu.au/events/horizon-2020-research-collaboration-european-union">cecs.anu.edu.au/events/horizon-2020-research-collaboration-european-union</a></div>
+						</div>
+					</div>
+					
+					<div class="col mb-4 MTXnewsItem">
+						<div class="card hover h-100">
+							<div class="card-header small pb-0 border-bottom-0">
+								<span class="MTXtagDate badge bg-secondary">September 2017</span>
+								<span class="MTXtagCategory badge bg-secondary">conference</span>
+							</div>
+							<div class="card-body small py-0">
+								<div class="card-title"><abbr title="Royal Melbourne Institute of Technology">RMIT</abbr> Futures Conference 2017: Research Requires Collaboration</div>
+							</div>
+						</div>
+					</div>
+					
+					<div class="col mb-4 MTXnewsItem">
+						<div class="card hover h-100">
+							<div class="card-header small pb-0 border-bottom-0">
+								<span class="MTXtagDate badge bg-secondary">June 2017</span>
+								<span class="MTXtagCategory badge bg-secondary">workshop</span>
+							</div>
+							<div class="card-body small py-0">
+								<div class="card-title"><abbr title="Australasian Research Management Society">ARMS</abbr> Professional Level Accreditation: Understanding International Research Funding</div>
+							</div>
+						</div>
+					</div>
+					
+					<div class="col mb-4 MTXnewsItem">
+						<div class="card hover h-100">
+							<div class="card-header small pb-0 border-bottom-0">
+								<span class="MTXtagDate badge bg-secondary">May 2017</span>
+								<span class="MTXtagCategory badge bg-secondary">presentation</span>
+							</div>
+							<div class="card-body small py-0">
+								<div class="card-title">1<sup>st</sup> <abbr title="Slovenian Australian Academic Association">SAAA</abbr> Conference 2017: Australian and Slovenian Current and Future Research Opportunities</div>
+								<p class="card-text small">Funding opportunities to support Slovenia-Australia research collaboration</p>
+							</div>
+							<div class="card-footer small pt-0 border-top-0"><a class="small stretched-link" href="http://saaa.si/saaa-conference-2017-program/">saaa.si/saaa-conference-2017-program</a></div>
+						</div>
+					</div>
+					
+					<div class="col mb-4 MTXnewsItem">
+						<div class="card hover h-100">
+							<div class="card-header small pb-0 border-bottom-0">
+								<span class="MTXtagDate badge bg-secondary">November 2016</span>
+								<span class="MTXtagCategory badge bg-secondary">seminar</span>
+							</div>
+							<div class="card-body small py-0">
+								<div class="card-title">The European Union’s Research and Innovation Programs</div>
+								<p class="card-text small">How is Horizon 2020 progressing?</p>
+							</div>
+							<div class="card-footer small pt-0 border-top-0"><a class="small stretched-link" href="presentations/2016-11-09_Horizon_2020_progress.pdf">www.montroix.com/presentations/2016-11-09_Horizon_2020_progress.pdf</a></div>
+						</div>
+					</div>
+					
+					<div class="col mb-4 MTXnewsItem">
+						<div class="card hover h-100">
+							<div class="card-header small pb-0 border-bottom-0">
+								<span class="MTXtagDate badge bg-secondary">October 2016</span>
+								<span class="MTXtagCategory badge bg-secondary">proposal</span>
+							</div>
+							<div class="card-body small py-0">
+								<div class="card-title">Proposal for a Pacific <abbr title="science, technology and innovation">ST&amp;I</abbr> Framework</div>
+								<p class="card-text small">A Pacific <abbr title="science, technology and innovation">ST&amp;I</abbr> Framework will support nations in the development of their national <abbr title="science, technology and innovation">ST&amp;I</abbr> efforts and hence facilitate the creation of much-needed capacities to address their individual concerns. This will enable all nations to better contribute to regional solutions via the leverage of national and regional <abbr title="science, technology and innovation">ST&amp;I</abbr> resources, and make positive progress towards the Sustainable Development Goals.</p>
+							</div>
+							<div class="card-footer small pt-0 border-top-0"><a class="small stretched-link" href="http://pacenet.plus.s3-website-ap-southeast-2.amazonaws.com/#policy">pacenet.plus/#policy</a></div>
+						</div>
+					</div>
+					
+					<div class="col mb-4 MTXnewsItem">
+						<div class="card hover h-100">
+							<div class="card-header small pb-0 border-bottom-0">
+								<span class="MTXtagDate badge bg-secondary">September 2016</span>
+								<span class="MTXtagCategory badge bg-secondary">publication</span>
+							</div>
+							<div class="card-body small py-0">
+								<div class="card-title">Understanding and promoting <abbr title="Horizon 2020">H2020</abbr> and other <abbr title="European Union">EU</abbr> programmes, <span class="fst-italic">Deliverable 5.1 of the <abbr title="Pacific-Europe Network for Science, Technology and Innovation">PACE-Net Plus</abbr> project</span></div>
+								<p class="card-text small"><span class="text-muted">by <span class="fst-italic">Caroline Moss, Nick Mulhernand, Andrew Cherry, Rado Faletič, Martin Grabert, Cynthia Cripps &amp; Jane Lattimore</span></span><br>
+									This report collates accumulated experience in promoting <abbr title="European Union">EU</abbr>-Pacific <abbr title="science, technology and innovation">ST&amp;I</abbr> partnerships, to articulate the lessons learned, and to formulate recommendations for policy makers and programme owners in the design of future cooperation programmes.</p>
+							</div>
+							<div class="card-footer small pt-0 border-top-0"><a class="small stretched-link" href="http://plus.pacenet.eu.s3-website-eu-west-1.amazonaws.com/system/files/documents/PNP_D5.1_Brief%20on%20recommendations%20for%20enhanced%20bi-regional%20partnerships_final.pdf">plus.pacenet.eu/system/files/documents/PNP_D5.1_Brief on recommendations for enhanced bi-regional partnerships_final.pdf</a></div>
+						</div>
+					</div>
+					
+					<div class="col mb-4 MTXnewsItem">
+						<div class="card hover h-100">
+							<div class="card-header small pb-0 border-bottom-0">
+								<span class="MTXtagDate badge bg-secondary">September 2016</span>
+								<span class="MTXtagCategory badge bg-secondary">presentation</span>
+							</div>
+							<div class="card-body small py-0">
+								<div class="card-title">2<sup>nd</sup> Pacific Islands University Research Network (<abbr title="Pacific Islands University Research Network">PIURN</abbr>) Conference</div>
+								<p class="card-text small">Horizon 2020 – the largest research funding program in the world</p>
+							</div>
+							<div class="card-footer small pt-0 border-top-0"><a class="small stretched-link" href="presentations/2016-09-19_PIURN_Horizon_2020.pdf">www.montroix.com/presentations/2016-09-19_PIURN_Horizon_2020.pdf</a></div>
+						</div>
+					</div>
+					
+					<div class="col mb-4 MTXnewsItem">
+						<div class="card hover h-100">
+							<div class="card-header small pb-0 border-bottom-0">
+								<span class="MTXtagDate badge bg-secondary">August 2016</span>
+								<span class="MTXtagCategory badge bg-secondary">workshop</span>
+							</div>
+							<div class="card-body small py-0">
+								<div class="card-title"><abbr title="Australasian Research Management Society">ARMS</abbr> Professional Level Accreditation: Understanding International Research Funding</div>
+							</div>
+						</div>
+					</div>
+					
+					<div class="col mb-4 MTXnewsItem">
+						<div class="card hover h-100">
+							<div class="card-header small pb-0 border-bottom-0">
+								<span class="MTXtagDate badge bg-secondary">July 2016</span>
+								<span class="MTXtagCategory badge bg-secondary">recommendation</span>
+							</div>
+							<div class="card-body small py-0">
+								<div class="card-title">Towards a Pacific <abbr title="science, technology and innovation">ST&amp;I</abbr> Agenda, a <abbr title="Pacific-Europe Network for Science, Technology and Innovation">PACE-Net Plus</abbr> recommendation to foster science, technology and innovation (<abbr title="science, technology and innovation">ST&amp;I</abbr>) pathways in the Pacific region</div>
+								<p class="card-text small">This document addresses regional leadership to develop a regional vision for <abbr title="science, technology and innovation">ST&amp;I</abbr> in the Pacific to enable them to define their joint future. This is a powerful tool for regional leadership to inform decision-making on national and regionally derived findings of scientific research.</p>
+							</div>
+							<div class="card-footer small pt-0 border-top-0"><a class="small stretched-link" href="http://plus.pacenet.eu.s3-website-eu-west-1.amazonaws.com/system/files/documents/PNP%20Towards%20a%20Pacific%20STI%20Agenda%20v4.pdf">plus.pacenet.eu/system/files/documents/PNP Towards a Pacific STI Agenda v4.pdf</a></div>
+						</div>
+					</div>
+					
+					<div class="col mb-4 MTXnewsItem">
+						<div class="card hover h-100">
+							<div class="card-header small pb-0 border-bottom-0">
+								<span class="MTXtagDate badge bg-secondary">July 2016</span>
+								<span class="MTXtagCategory badge bg-secondary">report</span>
+							</div>
+							<div class="card-body small py-0">
+								<div class="card-title">Filling the Social Justice Gap: Social Justice Simulations</div>
+								<p class="card-text small">Evaluation report on this project, which aimed to address the gap between theoretical learning and practical experience in university social justice education.</p>
+							</div>
+							<div class="card-footer small pt-0 border-top-0"><a class="small stretched-link" href="https://ltr.edu.au/resources/ID13_3093_Banki_report%202016.pdf">ltr.edu.au/resources/ID13_3093_Banki_report 2016.pdf</a></div>
+						</div>
+					</div>
+					
+					<div class="col mb-4 MTXnewsItem">
+						<div class="card hover h-100">
+							<div class="card-header small pb-0 border-bottom-0">
+								<span class="MTXtagDate badge bg-secondary">June 2016</span>
+								<span class="MTXtagCategory badge bg-secondary">conference</span>
+							</div>
+							<div class="card-body small py-0">
+								<div class="card-title">PACE-Net Plus bi-regional platform: Pathways to Innovation in the Pacific Region</div>
+							</div>
+							<div class="card-footer small pt-0 border-top-0"><a class="small stretched-link" href="http://plus.pacenet.eu.s3-website-eu-west-1.amazonaws.com/events/pacenetplus-fiji-2016">plus.pacenet.eu/events/pacenetplus-fiji-2016</a></div>
+						</div>
+					</div>
+					
+					<div class="col mb-4 MTXnewsItem">
+						<div class="card hover h-100">
+							<div class="card-header small pb-0 border-bottom-0">
+								<span class="MTXtagDate badge bg-secondary">June 2016</span>
+								<span class="MTXtagCategory badge bg-secondary">workshop</span>
+							</div>
+							<div class="card-body small py-0">
+								<div class="card-title">Fiji Information Day on European funding</div>
+							</div>
+							<div class="card-footer small pt-0 border-top-0"><a class="small stretched-link" href="http://plus.pacenet.eu.s3-website-eu-west-1.amazonaws.com/events/fiji-infoday-2016">plus.pacenet.eu/events/fiji-infoday-2016</a></div>
+						</div>
+					</div>
+					
+					<div class="col mb-4 MTXnewsItem">
+						<div class="card hover h-100">
+							<div class="card-header small pb-0 border-bottom-0">
+								<span class="MTXtagDate badge bg-secondary">April 2016</span>
+								<span class="MTXtagCategory badge bg-secondary">news</span>
+							</div>
+							<div class="card-body small py-0">
+								<div class="card-title"><span class="montroix">Montroix</span> announces cooperation with Science Leads, based in Germany</div>
+								<p class="card-text small">We are pleased to announce a new collaboration between Science Leads, based in Berlin and Brussels, and <span class="montroix">Montroix</span>, based in Canberra and Brisbane.</p>
+							</div>
+							<div class="card-footer small pt-0 border-top-0"><a class="MTXdisplayArticle small stretched-link" href="news/2016-04_Science_Leads.html">www.montroix.com/news/2016-04_Science_Leads.html</a></div>
+						</div>
+					</div>
+					
+					<div class="col mb-4 MTXnewsItem">
+						<div class="card hover h-100">
+							<div class="card-header small pb-0 border-bottom-0">
+								<span class="MTXtagDate badge bg-secondary">February 2016</span>
+								<span class="MTXtagCategory badge bg-secondary">op-ed</span>
+							</div>
+							<div class="card-body small py-0">
+								<div class="card-title">The missing step: does Australia need a national industrial policy?</div>
+								<p class="card-text small"><span class="text-muted">by <span class="fst-italic">Martin Grabert</span></span><br>
+									In Australia, government, in collaboration with business, can provide for another decade of economic growth only by setting clear goals for different sectors based on a deep understanding of their competitive position. Government must design policy in a purposeful way so that as many sectors as possible can be as globally competitive as possible.</p>
+							</div>
+							<div class="card-footer small pt-0 border-top-0"><a class="MTXdisplayArticle small stretched-link" href="publications/2016-02_The_Missing_Step.html">www.montroix.com/publications/2016-02_The_Missing_Step.html</a></div>
+						</div>
+					</div>
+					
+					<div class="col mb-4 MTXnewsItem">
+						<div class="card hover h-100">
+							<div class="card-header small pb-0 border-bottom-0">
+								<span class="MTXtagDate badge bg-secondary">November 2015</span>
+								<span class="MTXtagCategory badge bg-secondary">publication</span>
+							</div>
+							<div class="card-body small py-0">
+								<div class="card-title">Key opportunities for Australian researchers and innovators in the 2016–2017 calls from Horizon 2020</div>
+								<p class="card-text small"><span class="text-muted">by <span class="fst-italic">Rado Faletič &amp; Martin Grabert</span></span><br>
+									Horizon 2020 is the largest research and innovation funding program in the world. It provides funds and instruments for the entire spectrum of research and innovation activities. This document distils the enormous array of opportunities into an easy-to-read subset suitable for Australian actors to absorb.</p>
+							</div>
+							<div class="card-footer small pt-0 border-top-0"><a class="MTXdisplayArticle small stretched-link" href="publications/2015-11_Horizon2020_2016-2017.html">www.montroix.com/publications/2015-11_Horizon2020_2016-2017.html</a></div>
+						</div>
+					</div>
+					
+					<div class="col mb-4 MTXnewsItem">
+						<div class="card hover h-100">
+							<div class="card-header small pb-0 border-bottom-0">
+								<span class="MTXtagDate badge bg-secondary">August 2015</span>
+								<span class="MTXtagCategory badge bg-secondary">seminar</span>
+							</div>
+							<div class="card-body small py-0">
+								<div class="card-title">Getting maximum value from Horizon 2020</div>
+							</div>
+						</div>
+					</div>
+					
+					<div class="col mb-4 MTXnewsItem">
+						<div class="card hover h-100">
+							<div class="card-header small pb-0 border-bottom-0">
+								<span class="MTXtagDate badge bg-secondary">June 2015</span>
+								<span class="MTXtagCategory badge bg-secondary">conference</span>
+							</div>
+							<div class="card-body small py-0">
+								<div class="card-title"><abbr title="European Union">EU</abbr>-Pacific bi-regional policy dialogue: Moving further towards a policy dialogue in <abbr title="science, technology and innovation">ST&amp;I</abbr></div>
+							</div>
+							<div class="card-footer small pt-0 border-top-0"><a class="small stretched-link" href="http://plus.pacenet.eu.s3-website-eu-west-1.amazonaws.com/events/pacenetplus-brussels-2015">plus.pacenet.eu/events/pacenetplus-brussels-2015</a></div>
+						</div>
+					</div>
+					
+					<div class="col mb-4 MTXnewsItem">
+						<div class="card hover h-100">
+							<div class="card-header small pb-0 border-bottom-0">
+								<span class="MTXtagDate badge bg-secondary">June 2015</span>
+								<span class="MTXtagCategory badge bg-secondary">presentation</span>
+							</div>
+							<div class="card-body small py-0">
+								<div class="card-title">6<sup>th</sup> <abbr title="International Cooperation">INCO</abbr> Conference: Joint Innovation, Common Prosperity</div>
+								<p class="card-text small">Ensuring sustainable collaborations amidst rapidly changing regional and global dynamics</p>
+							</div>
+							<div class="card-footer small pt-0 border-top-0"><a class="small stretched-link" href="presentations/2015-06-17_INCO_sustainable_collaborations.pdf">www.montroix.com/presentations/2015-06-17_INCO_sustainable_collaborations.pdf</a></div>
+						</div>
+					</div>
+					
+					<div class="col mb-4 MTXnewsItem">
+						<div class="card hover h-100">
+							<div class="card-header small pb-0 border-bottom-0">
+								<span class="MTXtagDate badge bg-secondary">December 2014</span>
+								<span class="MTXtagCategory badge bg-secondary">conference</span>
+							</div>
+							<div class="card-body small py-0">
+								<div class="card-title"><abbr title="European Union">EU</abbr>-Pacific bi-regional dialogue platform: Science diplomacy to serve policy demands</div>
+							</div>
+							<div class="card-footer small pt-0 border-top-0"><a class="small stretched-link" href="http://plus.pacenet.eu.s3-website-eu-west-1.amazonaws.com/events/pacenetplus-auckland-2014">plus.pacenet.eu/events/pacenetplus-auckland-2014</a></div>
+						</div>
+					</div>
+					
+					<div class="col mb-4 MTXnewsItem">
+						<div class="card hover h-100">
+							<div class="card-header small pb-0 border-bottom-0">
+								<span class="MTXtagDate badge bg-secondary">December 2014</span>
+								<span class="MTXtagCategory badge bg-secondary">workshop</span>
+							</div>
+							<div class="card-body small py-0">
+								<div class="card-title">Reconciling mining and sustainable development in Pacific countries</div>
+							</div>
+							<div class="card-footer small pt-0 border-top-0"><a class="small stretched-link" href="http://plus.pacenet.eu.s3-website-eu-west-1.amazonaws.com/events/thinktank-auckland-2014">plus.pacenet.eu/events/thinktank-auckland-2014</a></div>
+						</div>
+					</div>
+					
+					<div class="col mb-4 MTXnewsItem">
+						<div class="card hover h-100">
+							<div class="card-header small pb-0 border-bottom-0">
+								<span class="MTXtagDate badge bg-secondary">November 2014</span>
+								<span class="MTXtagCategory badge bg-secondary">op-ed</span>
+							</div>
+							<div class="card-body small py-0">
+								<div class="card-title">The Prime Minister is right…</div>
+								<p class="card-text small"><span class="text-muted">by <span class="fst-italic">Martin Grabert</span></span><br>
+									… coal is important for mankind, and it will be for a long while yet. But it is too valuable to be burnt, and not only because burning it pollutes the atmosphere that sustains our life.</p>
+							</div>
+							<div class="card-footer small pt-0 border-top-0"><a class="MTXdisplayArticle small stretched-link" href="publications/2014-11_Yes_Prime_Minister.html">www.montroix.com/publications/2014-11_Yes_Prime_Minister.html</a></div>
+						</div>
+					</div>
+					
+					<div class="col mb-4 MTXnewsItem">
+						<div class="card hover h-100">
+							<div class="card-header small pb-0 border-bottom-0">
+								<span class="MTXtagDate badge bg-secondary">November 2014</span>
+								<span class="MTXtagCategory badge bg-secondary">rapporteur</span>
+							</div>
+							<div class="card-body small py-0">
+								<div class="card-title">International <abbr title="National Contact Point">NCP</abbr> Workshop – Promoting the International Dimension of Horizon 2020</div>
+								<p class="card-text small">Report on <span class="fst-italic">International Cooperation around the World</span></p>
+							</div>
+							<div class="card-footer small pt-0 border-top-0"><a class="small stretched-link" href="presentations/2014-11-26_International_NCP_Workshop.pdf">www.montroix.com/presentations/2014-11-26_International_NCP_Workshop.pdf</a></div>
+						</div>
+					</div>
+					
+					<div class="col mb-4 MTXnewsItem">
+						<div class="card hover h-100">
+							<div class="card-header small pb-0 border-bottom-0">
+								<span class="MTXtagDate badge bg-secondary">November 2014</span>
+								<span class="MTXtagCategory badge bg-secondary">workshop</span>
+							</div>
+							<div class="card-body small py-0">
+								<div class="card-title">Coastal ecosystem disturbances, fish and shellfish poisoning and their socio-economic implication</div>
+							</div>
+							<div class="card-footer small pt-0 border-top-0"><a class="small stretched-link" href="http://plus.pacenet.eu.s3-website-eu-west-1.amazonaws.com/events/pacenetplus-noumea-2014">plus.pacenet.eu/events/pacenetplus-noumea-2014</a></div>
+						</div>
+					</div>
+					
+					<div class="col mb-4 MTXnewsItem">
+						<div class="card hover h-100">
+							<div class="card-header small pb-0 border-bottom-0">
+								<span class="MTXtagDate badge bg-secondary">September 2014</span>
+								<span class="MTXtagCategory badge bg-secondary">workshop</span>
+							</div>
+							<div class="card-body small py-0">
+								<div class="card-title"><abbr title="Australasian Research Management Society">ARMS</abbr> 2014 pre-conference workshop: A Research Manager’s Introduction to Horizon 2020</div>
+							</div>
+							<div class="card-footer small pt-0 border-top-0"><a class="small stretched-link" href="presentations/2014-09-17_ARMS_Horizon_2020.pdf">www.montroix.com/presentations/2014-09-17_ARMS_Horizon_2020.pdf</a></div>
+						</div>
+					</div>
+					
+					<div class="col mb-4 MTXnewsItem">
+						<div class="card hover h-100">
+							<div class="card-header small pb-0 border-bottom-0">
+								<span class="MTXtagDate badge bg-secondary">September 2014</span>
+								<span class="MTXtagCategory badge bg-secondary">conference</span>
+							</div>
+							<div class="card-body small py-0">
+								<div class="card-title">Third International Conference on Small Island Developing States</div>
+								<p class="card-text small">Horizon 2020: EU Framework Program for Research and Innovation</p>
+							</div>
+							<div class="card-footer small pt-0 border-top-0"><a class="small stretched-link" href="http://plus.pacenet.eu.s3-website-eu-west-1.amazonaws.com/events/sids-pacenetplus-2014">plus.pacenet.eu/events/sids-pacenetplus-2014</a></div>
+						</div>
+					</div>
+					
+					<div class="col mb-4 MTXnewsItem">
+						<div class="card hover h-100">
+							<div class="card-header small pb-0 border-bottom-0">
+								<span class="MTXtagDate badge bg-secondary">August 2014</span>
+								<span class="MTXtagCategory badge bg-secondary">note</span>
+							</div>
+							<div class="card-body small py-0">
+								<div class="card-title">How <abbr title="Cooperative Research Centres">CRC</abbr>s can access Horizon 2020, in <span class="fst-italic">News from the <abbr title="Cooperative Research Centres">CRC</abbr> Association</span></div>
+								<p class="card-text small"><span class="text-muted">by <span class="fst-italic">Rado Faletič</span></span><br>
+									<span class="fst-italic">Horizon 2020</span> – the European Union’s massive research and innovation program – presents a range of excellent opportunities for <abbr title="Cooperative Research Centres">CRC</abbr>s to deliver on their mission. However, being a foreign program, Australian actors can find it difficult to comprehend and even more difficult to access.</p>
+							</div>
+							<div class="card-footer small pt-0 border-top-0"><a class="MTXdisplayArticle small stretched-link" href="publications/2014-08_CRC_3_Horizon_2020_howto.html">www.montroix.com/publications/2014-08_CRC_3_Horizon_2020_howto.html</a></div>
+						</div>
+					</div>
+					
+					<div class="col mb-4 MTXnewsItem">
+						<div class="card hover h-100">
+							<div class="card-header small pb-0 border-bottom-0">
+								<span class="MTXtagDate badge bg-secondary">June 2014</span>
+								<span class="MTXtagCategory badge bg-secondary">workshop</span>
+							</div>
+							<div class="card-body small py-0">
+								<div class="card-title">Multiplier Forum/Infoday for New Zealand and Pacific Researchers</div>
+							</div>
+							<div class="card-footer small pt-0 border-top-0"><a class="small stretched-link" href="http://plus.pacenet.eu.s3-website-eu-west-1.amazonaws.com/events/infoday-auckland-2014">plus.pacenet.eu/events/infoday-auckland-2014</a></div>
+						</div>
+					</div>
+					
+					<div class="col mb-4 MTXnewsItem">
+						<div class="card hover h-100">
+							<div class="card-header small pb-0 border-bottom-0">
+								<span class="MTXtagDate badge bg-secondary">June 2014</span>
+								<span class="MTXtagCategory badge bg-secondary">presentation</span>
+							</div>
+							<div class="card-body small py-0">
+								<div class="card-title">5<sup>th</sup> INCO Conference: Addressing Future Challenges</div>
+								<p class="card-text small">(Lack of) funding is the root of all risk</p>
+							</div>
+							<div class="card-footer small pt-0 border-top-0"><a class="small stretched-link" href="presentations/2014-06-03_INCO_funding_risk.pdf">www.montroix.com/presentations/2014-06-03_INCO_funding_risk.pdf</a></div>
+						</div>
+					</div>
+					
+					<div class="col mb-4 MTXnewsItem">
+						<div class="card hover h-100">
+							<div class="card-header small pb-0 border-bottom-0">
+								<span class="MTXtagDate badge bg-secondary">May 2014</span>
+								<span class="MTXtagCategory badge bg-secondary">note</span>
+							</div>
+							<div class="card-body small py-0">
+								<div class="card-title">Horizon 2020: the Largest Research Funding Program Ever, in <span class="fst-italic">News from the <abbr title="Cooperative Research Centres">CRC</abbr> Association</span></div>
+								<p class="card-text small"><span class="text-muted">by <span class="fst-italic">Rado Faletič</span></span><br>
+									The European Commission has the mandate of implementing programs that no single country in Europe could ever do by themselves, and also has the luxury of being able to deliver programs and budgets that focus on the long-term. With a budget of €80 billion, and spanning 2014–2020, <span class="fst-italic">Horizon 2020</span> provides an enormous ecosystem of initiatives that supports all aspects of the research game. For <abbr title="Cooperative Research Centres">CRC</abbr>s, this program offers an incredible opportunity to become involved with large global research endeavours, showcase your own research and capabilities to a large public and private sector audience, build and extend your international networks and foster long-term international partnerships.</p>
+							</div>
+							<div class="card-footer small pt-0 border-top-0"><a class="MTXdisplayArticle small stretched-link" href="publications/2014-05_CRC_2_introducting_Horizon_2020.html">www.montroix.com/publications/2014-05_CRC_2_introducting_Horizon_2020.html</a></div>
+						</div>
+					</div>
+					
+					<div class="col mb-4 MTXnewsItem">
+						<div class="card hover h-100">
+							<div class="card-header small pb-0 border-bottom-0">
+								<span class="MTXtagDate badge bg-secondary">April 2014</span>
+								<span class="MTXtagCategory badge bg-secondary">note</span>
+							</div>
+							<div class="card-body small py-0">
+								<div class="card-title">Global Collaboration is Essential, in <span class="fst-italic">News from the <abbr title="Cooperative Research Centres">CRC</abbr> Association</span></div>
+								<p class="card-text small"><span class="text-muted">by <span class="fst-italic">Martin Grabert</span></span><br>
+									Many of the problems that confront us in Australia also affect other countries. Issues related to climate change are not uniquely Australian challenges; nor is water and energy supply; food or security both for citizens and nations, to name just a few. Enduring links with the rest of the world are important to find workable solutions. Any country with aspirations for the future seeks to collaborate with others in these endeavours. As the Chief Scientist put it: <span class="fst-italic">Global collaboration is essential, not an optional add-on</span>.</p>
+							</div>
+							<div class="card-footer small pt-0 border-top-0"><a class="MTXdisplayArticle small stretched-link" href="publications/2014-04_CRC_1_global_collaboration_is_essential.html">www.montroix.com/publications/2014-04_CRC_1_global_collaboration_is_essential.html</a></div>
+						</div>
+					</div>
+					
+					<div class="col mb-4 MTXnewsItem">
+						<div class="card hover h-100">
+							<div class="card-header small pb-0 border-bottom-0">
+								<span class="MTXtagDate badge bg-secondary">March 2014</span>
+								<span class="MTXtagCategory badge bg-secondary">workshop</span>
+							</div>
+							<div class="card-body small py-0">
+								<div class="card-title">Research Collaboration with the <abbr title="European Union">EU</abbr></div>
+							</div>
+							<div class="card-footer small pt-0 border-top-0"><a class="small stretched-link" href="https://ces.cass.anu.edu.au/events/research-collaboration-eu">ces.cass.anu.edu.au/events/research-collaboration-eu</a></div>
+						</div>
+					</div>
+					
+					<div class="col mb-4 MTXnewsItem">
+						<div class="card hover h-100">
+							<div class="card-header small pb-0 border-bottom-0">
+								<span class="MTXtagDate badge bg-secondary">March 2014</span>
+								<span class="MTXtagCategory badge bg-secondary">workshop</span>
+							</div>
+							<div class="card-body small py-0">
+								<div class="card-title">Horizon 2020 information day, Nouméa</div>
+							</div>
+							<div class="card-footer small pt-0 border-top-0"><a class="small stretched-link" href="http://plus.pacenet.eu.s3-website-eu-west-1.amazonaws.com/events/horizon2020-infoday-noumea-2014">plus.pacenet.eu/events/horizon2020-infoday-noumea-2014</a></div>
+						</div>
+					</div>
+					
+					<div class="col mb-4 MTXnewsItem">
+						<div class="card hover h-100">
+							<div class="card-header small pb-0 border-bottom-0">
+								<span class="MTXtagDate badge bg-secondary">December 2013</span>
+								<span class="MTXtagCategory badge bg-secondary">conference</span>
+							</div>
+							<div class="card-body small py-0">
+								<div class="card-title">Horizon 2020 information day, Sydney</div>
+							</div>
+							<div class="card-footer small pt-0 border-top-0"><a class="small stretched-link" href="http://plus.pacenet.eu.s3-website-eu-west-1.amazonaws.com/events/horizon2020-infoday-2013">plus.pacenet.eu/events/horizon2020-infoday-2013</a></div>
+						</div>
+					</div>
+					
+					<div class="col mb-4 MTXnewsItem">
+						<div class="card hover h-100">
+							<div class="card-header small pb-0 border-bottom-0">
+								<span class="MTXtagDate badge bg-secondary">September 2013</span>
+								<span class="MTXtagCategory badge bg-secondary">presentation</span>
+							</div>
+							<div class="card-body small py-0">
+								<div class="card-title">‘Smart, Sustainable and Inclusive’: Researching the <abbr title="European Union">EU</abbr> from Australia and New Zealand</div>
+								<p class="card-text small">Unwritten rules and strategies for research collaboration with Europe</p>
+							</div>
+							<div class="card-footer small pt-0 border-top-0"><a class="small stretched-link" href="presentations/2013-09-09_unwritten_rules_and_strategies.pdf">www.montroix.com/presentations/2013-09-09_unwritten_rules_and_strategies.pdf</a></div>
+						</div>
+					</div>
+					
+					<div class="col mb-4 MTXnewsItem">
+						<div class="card hover h-100">
+							<div class="card-header small pb-0 border-bottom-0">
+								<span class="MTXtagDate badge bg-secondary">March 2013</span>
+								<span class="MTXtagCategory badge bg-secondary">conference</span>
+							</div>
+							<div class="card-body small py-0">
+								<div class="card-title"><abbr title="Pacific-EU Network for science and Technology">PACE-Net</abbr> Key Stakeholder Conference</div>
+								<p class="card-text small">Connecting Research and Innovation for Development in the Pacific</p>
+							</div>
+							<div class="card-footer small pt-0 border-top-0"><a class="small stretched-link" href="http://suva-conference-2013.pacenet.eu.s3-website-eu-west-1.amazonaws.com/eu-info-day">suva-conference-2013.pacenet.eu/eu-info-day</a></div>
+						</div>
+					</div>
+					
+					<div class="col mb-4 MTXnewsItem">
+						<div class="card hover h-100">
+							<div class="card-header small pb-0 border-bottom-0">
+								<span class="MTXtagDate badge bg-secondary">November 2012</span>
+								<span class="MTXtagCategory badge bg-secondary">roundtable</span>
+							</div>
+							<div class="card-body small py-0">
+								<div class="card-title">A Window on Cooperation &amp; Collaboration Between Australia &amp; the <abbr title="European Union">EU</abbr></div>
+							</div>
+							<div class="card-footer small pt-0 border-top-0"><a class="small stretched-link" href="presentations/2012-11-23_CES_roundtable.pdf">www.montroix.com/presentations/2012-11-23_CES_roundtable.pdf</a></div>
+						</div>
+					</div>
+					
+					<div class="col mb-4 MTXnewsItem">
+						<div class="card hover h-100">
+							<div class="card-header small pb-0 border-bottom-0">
+								<span class="MTXtagDate badge bg-secondary">September 2012</span>
+								<span class="MTXtagCategory badge bg-secondary">publication</span>
+							</div>
+							<div class="card-body small py-0">
+								<div class="card-title">Collaboration is Critical, in <span class="fst-italic">International Innovation: Health</span></div>
+								<p class="card-text small"><span class="text-muted">by <span class="fst-italic">Rado Faletič</span></span><br>
+									In the concluding part of this extended conversation, Rado Faletič extols the virtues of international collaboration and knowledge exchange to foster meaningful growth in science and technology.</p>
+							</div>
+							<div class="card-footer small pt-0 border-top-0"><a class="small stretched-link" href="http://www.feast.org.s3-website-ap-southeast-2.amazonaws.com/publications/2012-09_Collaboration_is_Critical.pdf">www.feast.org/publications/2012-09_Collaboration_is_Critical.pdf</a></div>
+						</div>
+					</div>
+					
+					<div class="col mb-4 MTXnewsItem">
+						<div class="card hover h-100">
+							<div class="card-header small pb-0 border-bottom-0">
+								<span class="MTXtagDate badge bg-secondary">September 2012</span>
+								<span class="MTXtagCategory badge bg-secondary">workshop</span>
+							</div>
+							<div class="card-body small py-0">
+								<div class="card-title"><abbr title="European Union">EU</abbr>-Japan Centre for Industrial Cooperation</div>
+								<p class="card-text small">Management of Science and Technology in International Collaborative Projects: Background and Practice</p>
+							</div>
+							<div class="card-footer small pt-0 border-top-0"><a class="small stretched-link" href="presentations/2012-09-12_J-BILAT.pdf">www.montroix.com/presentations/2012-09-12_J-BILAT.pdf</a></div>
+						</div>
+					</div>
+					
+					<div class="col mb-4 MTXnewsItem">
+						<div class="card hover h-100">
+							<div class="card-header small pb-0 border-bottom-0">
+								<span class="MTXtagDate badge bg-secondary">September 2012</span>
+								<span class="MTXtagCategory badge bg-secondary">presentation</span>
+							</div>
+							<div class="card-body small py-0">
+								<div class="card-title"><abbr title="Australasian Research Management Society">ARMS</abbr> <abbr title="Australian Capital Territory">ACT</abbr> research roundtable</div>
+								<p class="card-text small">Supporting International Collaboration</p>
+							</div>
+							<div class="card-footer small pt-0 border-top-0"><a class="small stretched-link" href="presentations/2012-09-06_ARMS_ACT.pdf">www.montroix.com/presentations/2012-09-06_ARMS_ACT.pdf</a></div>
+						</div>
+					</div>
+					
+					<div class="col mb-4 MTXnewsItem">
+						<div class="card hover h-100">
+							<div class="card-header small pb-0 border-bottom-0">
+								<span class="MTXtagDate badge bg-secondary">August 2012</span>
+								<span class="MTXtagCategory badge bg-secondary">publication</span>
+							</div>
+							<div class="card-body small py-0">
+								<div class="card-title">Joining the Dots in <span class="fst-italic">International Innovation: Health</span></div>
+								<p class="card-text small"><span class="text-muted">by <span class="fst-italic">Rado Faletič</span></span><br>
+									While there is clearly much to be gained from bilateral and multilateral research collaboration, too often these partnerships are inhibited by difficulties in funding and other infrastructural issues. In the first of an enlightening two-part discussion with <span class="fst-italic">International Innovation</span>, Dr Rado Faletič explains how <abbr title="Forum for European-Australian Science and Technology cooperation">FEAST</abbr> has facilitated European-Australian collaboration.</p>
+							</div>
+							<div class="card-footer small pt-0 border-top-0"><a class="small stretched-link" href="http://www.feast.org.s3-website-ap-southeast-2.amazonaws.com/publications/2012-08_Joining_the_Dots.pdf">www.feast.org/publications/2012-08_Joining_the_Dots.pdf</a></div>
+						</div>
+					</div>
+					
+					<div class="col mb-4 MTXnewsItem">
+						<div class="card hover h-100">
+							<div class="card-header small pb-0 border-bottom-0">
+								<span class="MTXtagDate badge bg-secondary">August 2012</span>
+								<span class="MTXtagCategory badge bg-secondary">workshop</span>
+							</div>
+							<div class="card-body small py-0">
+								<div class="card-title">The <abbr title="European Union">EU</abbr>’s Seventh Framework Programme (<abbr title="Seventh Framework Programme">FP7</abbr>)</div>
+							</div>
+							<div class="card-footer small pt-0 border-top-0"><a class="small stretched-link" href="presentations/2012-08-31_FP7_Newcastle.pdf">www.montroix.com/presentations/2012-08-31_FP7_Newcastle.pdf</a></div>
+						</div>
+					</div>
+					
+					<div class="col mb-4 MTXnewsItem">
+						<div class="card hover h-100">
+							<div class="card-header small pb-0 border-bottom-0">
+								<span class="MTXtagDate badge bg-secondary">August 2012</span>
+								<span class="MTXtagCategory badge bg-secondary">workshop</span>
+							</div>
+							<div class="card-body small py-0">
+								<div class="card-title">2013 Work Programme of the European Union Seventh Framework Programme of Research (<abbr title="Seventh Framework Programme">FP7</abbr>) and Horizon 2020</div>
+							</div>
+							<div class="card-footer small pt-0 border-top-0"><a class="small stretched-link" href="presentations/2012-08-09_FP7_Monash.pdf">www.montroix.com/presentations/2012-08-09_FP7_Monash.pdf</a></div>
+						</div>
+					</div>
+					
+					<div class="col mb-4 MTXnewsItem">
+						<div class="card hover h-100">
+							<div class="card-header small pb-0 border-bottom-0">
+								<span class="MTXtagDate badge bg-secondary">June 2012</span>
+								<span class="MTXtagCategory badge bg-secondary">presentation</span>
+							</div>
+							<div class="card-body small py-0">
+								<div class="card-title">Regional Universities Network (<abbr title="Regional Universities Network">RUN</abbr>) presentation: University Networks</div>
+							</div>
+							<div class="card-footer small pt-0 border-top-0"><a class="small stretched-link" href="presentations/2012-06-28_university_networks.pdf">www.montroix.com/presentations/2012-06-28_university_networks.pdf</a></div>
+						</div>
+					</div>
+					
+					<div class="col mb-4 MTXnewsItem">
+						<div class="card hover h-100">
+							<div class="card-header small pb-0 border-bottom-0">
+								<span class="MTXtagDate badge bg-secondary">June 2012</span>
+								<span class="MTXtagCategory badge bg-secondary">workshop</span>
+							</div>
+							<div class="card-body small py-0">
+								<div class="card-title">Collaborating with Europe: Opportunities and Strategies for Funding for Arts and Social Science</div>
+							</div>
+							<div class="card-footer small pt-0 border-top-0"><a class="small stretched-link" href="https://ces.cass.anu.edu.au/events/collaborating-europe-opportunities-and-strategies-funding-arts-and-social-science-0">ces.cass.anu.edu.au/events/collaborating-europe-opportunities-and-strategies-funding-arts-and-social-science-0</a></div>
+						</div>
+					</div>
+					
+				</div>
+			</div>
+		</div>
+	</section>
+
+
+
+
+
+
+
+
+
+
+	<section class="MTXsection bg-secondary pt-3">
+		<div class="container bg-light py-2 rounded-top shadow">
+			<div class="mtx-section" id="contact">
+				<h2 class="display-4 mb-4">Contact</h2>
+				<p>Montroix Pty Ltd is an Australian corporation (<span class="text-nowrap"><abbr title="Australian Company Number">ACN</abbr> 158 327 827</span>) that works with clients around the world.</p>
+				<address>
+					<dl class="row">
+						<dt class="col-3">Website:</dt><dd class="col-9"><a href="https://www.montroix.com/">www.montroix.com</a></dd>
+						<dt class="col-3">Email:</dt><dd class="col-9"><a href="mailto:info@montroix.com">info@montroix.com</a></dd>
+						<dt class="col-3">LinkedIn:</dt><dd class="col-9"><a href="https://www.linkedin.com/company/montroix">linkedin.com/company/montroix</a></dd>
+						<dt class="col-3">Post:</dt><dd class="col-9"><abbr title="Post Office">PO</abbr> Box 4394<br> Hawker <abbr title="Australian Capital Territory">ACT</abbr> 2614<br> Australia</dd>
+					</dl>
+				</address>
+			</div>
+		</div>
+	</section>
+
+
+
+
+
+
+
+
+
+
+	<footer class="bg-dark text-light py-4" id="footer">
+		<div class="container">
+			<div class="row">
+				<ul class="col-lg-4 order-first order-lg-last nav justify-content-lg-end pb-3 d-print-none">
+					<li class="nav-item"><a class="nav-link" href="https://www.linkedin.com/company/montroix"><svg xmlns="http://www.w3.org/2000/svg" height="1em" fill="currentColor" class="bi bi-linkedin" viewBox="0 0 16 16"><path fill-rule="evenodd" d="M0 1.146C0 .513.526 0 1.175 0h13.65C15.474 0 16 .513 16 1.146v13.708c0 .633-.526 1.146-1.175 1.146H1.175C.526 16 0 15.487 0 14.854V1.146zm4.943 12.248V6.169H2.542v7.225h2.401zm-1.2-8.212c.837 0 1.358-.554 1.358-1.248-.015-.709-.52-1.248-1.342-1.248-.822 0-1.359.54-1.359 1.248 0 .694.521 1.248 1.327 1.248h.016zm4.908 8.212h-2.4s.03-6.547 0-7.225h2.4v1.023a5.54 5.54 0 0 0-.016.025h.016v-.025c.32-.493.89-1.193 2.165-1.193 1.58 0 2.764 1.033 2.764 3.252v4.143h-2.4V9.529c0-.972-.348-1.634-1.217-1.634-.664 0-1.059.447-1.233.878-.063.154-.079.37-.079.586v4.035z"/></svg></a></li>
+				</ul>
+				<div class="col-lg-8 order-last order-lg-first">
+					<p>© 2012–2025 Montroix Pty Ltd, <span class="text-nowrap"><abbr title="Australian Business Number">ABN</abbr> 33 158 327 827</span></p>
+					<p class="d-print-none">Site developed and maintained by Montroix Pty Ltd</p>
+					<p class="d-print-none"><a href="https://www.iubenda.com/privacy-policy/46267774" class="iubenda-nostyle no-brand iubenda-noiframe iubenda-embed iubenda-noiframe text-white" title="Privacy Policy">Privacy Policy</a><script type="text/javascript">(function (w,d) {var loader = function () {var s = d.createElement("script"), tag = d.getElementsByTagName("script")[0]; s.src="https://cdn.iubenda.com/iubenda.js"; tag.parentNode.insertBefore(s,tag);}; if(w.addEventListener){w.addEventListener("load", loader, false);} else if(w.attachEvent){w.attachEvent("onload", loader);} else {w.onload = loader;}})(window, document);</script></p>
+				</div>
+			</div>
+		</div>
+	</footer>
+	
+	<script src="https://code.jquery.com/jquery-3.7.1.min.js" integrity="sha256-/JqT3SQfawRcv/BIHPThkBvs0OEvtFFmqPF/lYI/Cxo=" crossorigin="anonymous"></script>
+	<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.5/dist/js/bootstrap.bundle.min.js" integrity="sha384-k6d4wzSIapyDyv1kpU366/PK5hCdSbCRGRCMv+eplOQJWyd1fbcAu9OCUj5zNLiq" crossorigin="anonymous"></script>
+	<script>
+		$(function() {
+			/*
+			$("#MTXnavigation a").on('click', function(event) {
+				event.preventDefault();
+				var hash = this.hash;
+				$('html, body').animate({ scrollTop: $(hash).offset().top }, 600, function(){ window.location.hash = hash; } );
+			});
+			*/
+			$('.MTXnavlink').click(function() { $('.navbar-collapse').collapse('hide'); });
+			
+			// modal element to display HTML article on-page			
+			$('<div class="modal fade" id="articleModal" tabindex="-1" role="dialog" aria-labelledby="articleModal" aria-hidden="true"><div class="modal-dialog modal-dialog-scrollable modal-xl" role="document"><div class="modal-content"><div class="modal-header"><p class="modal-title"> </p><button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button></div><div class="modal-body"></div><div class="modal-footer"><button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button></div></div></div></div>').appendTo($('body'));
+			$('.MTXdisplayArticle').each(function(index, a) {
+				var href = $(this).attr('href');
+				$(this).attr('data-bs-toggle', 'modal');
+				$(this).attr('data-bs-target', '#articleModal');
+				$(this).attr('id', 'MTXdisplayArticle_' + href.replace('/', '_').replace('.html', '').replace('.', ''));
+				$(this).click({ href }, function() {
+					$('#articleModal .modal-body').html('<div class="progress"><div class="progress-bar progress-bar-striped progress-bar-animated w-100" role="progressbar" aria-valuenow="100" aria-valuemin="0" aria-valuemax="100"><span><span class="spinner-grow spinner-grow-sm" role="status" aria-hidden="true"></span> loading…</span></div></div>').load(href + ' article');
+				});
+			});
+			
+			// reformat Montroix
+			$('.montroix').each(function() {
+				$(this).html('Montroi<span class="montroixX">x</span>');
+			});
+			
+			// create filters for the News, Events & Publications items
+			var newsNrecent = 12;
+			var newsNtotal = 0;
+			$('#MTXsectionNews .MTXnewsItem').each(function(index) {
+				if (index >= newsNrecent) {
+					$(this).hide();
+				}
+				newsNtotal++;
+			});
+			var newsFilterHtml = '<div class="row mb-4 d-print-none" id="MTXnewsFilter"><div class="col-3 col-md-2 text-end">filter by:</div>';
+			newsFilterHtml += '<div class="col-9 col-md-10"><button type="button" class="btn MTXfilterNews badge btn-secondary" name="showAllNews">all <span class="badge bg-light text-dark">' + newsNtotal + '</span></button>';
+			newsFilterHtml += '	<button type="button" class="btn MTXfilterNews badge btn-primary" name="showRecentNews">recent <span class="badge bg-light text-dark">' + newsNrecent + '</span></button>';
+			newsFilterHtml += '</div>';
+			newsFilterHtml += '<div class="col-3 col-md-2 text-end">year:</div><div class="col-9 col-md-10">';
+			var years = { };
+			$('.MTXtagDate').each(function() {
+				var dateText = $(this).text();
+				dateText = dateText.substring(dateText.length - 4, dateText.length);
+				if (dateText != 'year') {
+					if (!years[dateText]) {
+						years[dateText] = 0;
+					}
+					years[dateText]++;
+				}
+			});
+			var yearsArray = [ ];
+			for (var year in years) {
+				yearsArray.push(year);
+			}
+			yearsArray.sort().reverse();
+			for (var i=0; i<yearsArray.length; i++) {
+				newsFilterHtml += '	<button type="button" class="btn MTXfilterNews badge btn-secondary" name="showNewsYear_' + yearsArray[i] + '">' + yearsArray[i] + ' <span class="badge bg-light text-dark">' + years[yearsArray[i]] + '</span></button>';
+			}
+			newsFilterHtml += '</div>';
+			newsFilterHtml += '<div class="col-3 col-md-2 text-end">category:</div><div class="col-9 col-md-10">';
+			var tags = { };
+			$('.MTXtagCategory').each(function() {
+				var tagText = $(this).text();
+				if (!tags[tagText]) {
+					tags[tagText] = 0;
+				}
+				tags[tagText]++;
+			});
+			for (var tag in tags) {
+				newsFilterHtml += '	<button type="button" class="btn MTXfilterNews badge btn-secondary" name="showNewsTag_' + tag + '">' + tag + ' <span class="badge bg-light text-dark">' + tags[tag] + '</span></button>';
+			}
+			newsFilterHtml += '</div>';
+			newsFilterHtml += '</div>'
+			$('#newsTitle').after(newsFilterHtml);
+			$('.MTXfilterNews').each(function() {
+				$(this).click(event => {
+					event.preventDefault();
+					var pieces = $(this).text().split(' ');
+					var href = $(this).attr('name');
+					if (href == 'showAllNews') {
+						$('#MTXsectionNews .MTXnewsItem').each(function() {
+							$(this).show();
+						});
+					} else if (href == 'showRecentNews') {
+						$('#MTXsectionNews .MTXnewsItem').each(function(index) {
+							if (index < newsNrecent) {
+								$(this).show();
+							} else {
+								$(this).hide();
+							}
+						});
+					} else if (href.substring(0, 13) == 'showNewsYear_') {
+						var year = href.substring(13);
+						$('#MTXsectionNews .MTXnewsItem .MTXtagDate').each(function() {
+							var dateText = $(this).text();
+							var dateYear = dateText.substring(dateText.length - 4, dateText.length);
+							if (dateYear == year) {
+								$(this).parent().parent().parent().show();
+							} else {
+								$(this).parent().parent().parent().hide();
+							}
+						});
+					} else if (href.substring(0, 12) == 'showNewsTag_') {
+						var tag = href.substring(12);
+						$('#MTXsectionNews .MTXnewsItem .MTXtagCategory').each(function() {
+							var tagText = $(this).text();
+							if (tagText == tag) {
+								$(this).parent().parent().parent().show();
+							} else {
+								$(this).parent().parent().parent().hide();
+							}
+						});
+					}
+					$('#MTXnewsFilter .MTXfilterNews').each(function() {
+						$(this).removeClass('btn-primary');
+						$(this).removeClass('btn-secondary');
+						$(this).addClass('btn-secondary');
+					});
+					$(this).removeClass('btn-primary');
+					$(this).removeClass('btn-secondary');
+					$(this).addClass('btn-primary');
+					//bootstrap.ScrollSpy.getInstance(document.getElementById('top')).refresh();
+				});
+			});
+			
+			// automatically display an article referenced in the URI hash string
+			if (window.location.hash) {
+				var hash = window.location.hash;
+				switch (hash) {
+					case '#events': case '#presentations':
+						hash = '#news';
+						window.location = hash;
+						document.getElementById(hash.substring(1)).scrollIntoView(true);
+						break;
+					case '#services':
+						hash = '#portfolio';
+						window.location = hash;
+						document.getElementById(hash.substring(1)).scrollIntoView(true);
+						break;
+				}
+				if (hash.substring(0, 6) == '#news/' || hash.substring(0, 14) == '#publications/') {
+					var id = 'MTXdisplayArticle_' + hash.substring(1).replace('/', '_').replace('.html', '').replace('.', '');
+					$('#' + id).click();
+				}
+			}
+		});
+	</script>
+</body>
+</html>
